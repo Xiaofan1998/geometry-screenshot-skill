@@ -1,0 +1,16 @@
+{
+  "name": "ai-zyb-screenshot",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test src/**/*.test.js",
+    "test:core": "node --test src/geometryScreenshotCore.test.js",
+    "test:artifacts": "node --test src/geometryScreenshotArtifacts.test.js",
+    "test:runner": "node --test src/geometryWebScreenshotRunner.test.js",
+    "capture:geometry": "node cli/geometry-web-screenshot.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.54.0"
+  }
+}

@@ -1,0 +1,527 @@
+contentscript.js:14083 MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added. Use emitter.setMaxListeners() to increase limit
+n @ contentscript.js:14083
+u @ contentscript.js:14083
+a.addListener @ contentscript.js:14083
+Z.on @ contentscript.js:14082
+a.once @ contentscript.js:14083
+E.pipe @ contentscript.js:14063
+q @ contentscript.js:14063
+D @ contentscript.js:14063
+P @ contentscript.js:14063
+M @ contentscript.js:14063
+I @ contentscript.js:14063
+(anonymous) @ contentscript.js:14083
+call.__webpack_require__._LM_.__webpack_require__.__webpack_require__ @ contentscript.js:14083
+(anonymous) @ contentscript.js:14083
+(anonymous) @ contentscript.js:14083Understand this warningAI
+contentscript.js:14083 MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 end listeners added. Use emitter.setMaxListeners() to increase limit
+n @ contentscript.js:14083
+u @ contentscript.js:14083
+a.addListener @ contentscript.js:14083
+Z.on @ contentscript.js:14082
+O @ contentscript.js:14083
+q @ contentscript.js:14063
+D @ contentscript.js:14063
+P @ contentscript.js:14063
+M @ contentscript.js:14063
+I @ contentscript.js:14063
+(anonymous) @ contentscript.js:14083
+call.__webpack_require__._LM_.__webpack_require__.__webpack_require__ @ contentscript.js:14083
+(anonymous) @ contentscript.js:14083
+(anonymous) @ contentscript.js:14083Understand this warningAI
+contentscript.js:14083 ObjectMultiplex - orphaned data for stream "app-init-liveness"
+warn @ contentscript.js:14083
+_write @ contentscript.js:14082
+M @ contentscript.js:14063
+x @ contentscript.js:14063
+j.write @ contentscript.js:14063
+d @ contentscript.js:14082
+a.emit @ contentscript.js:14083
+J @ contentscript.js:14082
+K @ contentscript.js:14082
+Z.push @ contentscript.js:14082
+(anonymous) @ contentscript.js:14063Understand this warningAI
+contentscript.js:14083 ObjectMultiplex - orphaned data for stream "app-init-liveness"
+warn @ contentscript.js:14083
+_write @ contentscript.js:14082
+M @ contentscript.js:14063
+x @ contentscript.js:14063
+j.write @ contentscript.js:14063
+d @ contentscript.js:14082
+a.emit @ contentscript.js:14083
+J @ contentscript.js:14082
+K @ contentscript.js:14082
+Z.push @ contentscript.js:14082
+(anonymous) @ contentscript.js:14082
+transform @ contentscript.js:14063
+s._write @ contentscript.js:14082
+I @ contentscript.js:14083
+L @ contentscript.js:14083
+O.write @ contentscript.js:14083
+d @ contentscript.js:14082
+a.emit @ contentscript.js:14083
+J @ contentscript.js:14082
+K @ contentscript.js:14082
+Z.push @ contentscript.js:14082
+(anonymous) @ contentscript.js:14063Understand this warningAI
+contentscript.js:14083 ObjectMultiplex - orphaned data for stream "background-liveness"
+warn @ contentscript.js:14083
+_write @ contentscript.js:14082
+M @ contentscript.js:14063
+x @ contentscript.js:14063
+j.write @ contentscript.js:14063
+d @ contentscript.js:14082
+a.emit @ contentscript.js:14083
+J @ contentscript.js:14082
+K @ contentscript.js:14082
+Z.push @ contentscript.js:14082
+(anonymous) @ contentscript.js:14063Understand this warningAI
+contentscript.js:14083 ObjectMultiplex - orphaned data for stream "background-liveness"
+warn @ contentscript.js:14083
+_write @ contentscript.js:14082
+M @ contentscript.js:14063
+x @ contentscript.js:14063
+j.write @ contentscript.js:14063
+d @ contentscript.js:14082
+a.emit @ contentscript.js:14083
+J @ contentscript.js:14082
+K @ contentscript.js:14082
+Z.push @ contentscript.js:14082
+(anonymous) @ contentscript.js:14082
+transform @ contentscript.js:14063
+s._write @ contentscript.js:14082
+I @ contentscript.js:14083
+L @ contentscript.js:14083
+O.write @ contentscript.js:14083
+d @ contentscript.js:14082
+a.emit @ contentscript.js:14083
+J @ contentscript.js:14082
+K @ contentscript.js:14082
+Z.push @ contentscript.js:14082
+(anonymous) @ contentscript.js:14063Understand this warningAI
+contentscript.js:14083 ObjectMultiplex - malformed chunk without name "[object Object]"
+warn @ contentscript.js:14083
+_write @ contentscript.js:14082
+M @ contentscript.js:14063
+x @ contentscript.js:14063
+j.write @ contentscript.js:14063
+d @ contentscript.js:14082
+a.emit @ contentscript.js:14083
+J @ contentscript.js:14082
+K @ contentscript.js:14082
+Z.push @ contentscript.js:14082
+(anonymous) @ contentscript.js:14063Understand this warningAI
+contentscript.js:14083 ObjectMultiplex - malformed chunk without name "[object Object]"
+warn @ contentscript.js:14083
+_write @ contentscript.js:14082
+M @ contentscript.js:14063
+x @ contentscript.js:14063
+j.write @ contentscript.js:14063
+d @ contentscript.js:14082
+a.emit @ contentscript.js:14083
+J @ contentscript.js:14082
+K @ contentscript.js:14082
+Z.push @ contentscript.js:14082
+(anonymous) @ contentscript.js:14082
+transform @ contentscript.js:14063
+s._write @ contentscript.js:14082
+I @ contentscript.js:14083
+L @ contentscript.js:14083
+O.write @ contentscript.js:14083
+d @ contentscript.js:14082
+a.emit @ contentscript.js:14083
+J @ contentscript.js:14082
+K @ contentscript.js:14082
+Z.push @ contentscript.js:14082
+(anonymous) @ contentscript.js:14063Understand this warningAI
+App.vue:189 [App] unlockAudio silent play failed: NotSupportedError: Failed to load because no supported source was found.
+(anonymous) @ App.vue:189
+Promise.catch
+unlockAudio @ App.vue:188
+sendGeometry @ App.vue:402
+callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
+invoker @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7651Understand this warningAI
+api.js:264 [sendGeometryChat] 请求参数: {tid: '03e10f0eb88f2333eee3b87ff0fa675c', user_profile: 'learning.math.exercise: 遇到综合题容易一下子跳到结论，需要更清楚的中间步骤。…nce: 讲解时多用“我们先……再……最后……”的结构，关键推导不要跳步，每完成一步给出轻量提醒。', prompt_version: '2'}
+api.js:280 [sendGeometryChat] 连接成功，开始接收 SSE
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'problem', params: {…}, msg_id: '57063d63-12e3-4307-ba85-1e4cc0a48c35'}
+ResponseItem.vue:394 [RI] watcher defer: iframeReady=false, events=1
+ResponseItem.vue:70 [RI] onIframeLoad: events=1 processing=false currentIndex=0 isReplaying=false
+ResponseItem.vue:85 [RI] onIframeLoad: → processEvents()
+ResponseItem.vue:249 [RI] processEvents: START index=0 total=1 iframeReady=true
+ResponseItem.vue:263 [RI] event[0] type=command action=problem name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> renderProblem Proxy(Object) {content: '如图,一根垂直于地面的旗杆在离地面5m处撕裂折断,旗杆顶部落在离旗杆底部12m处,旗杆折断之前的高度是$\\_\\_\\_\\_$m.'}
+ResponseItem.vue:260 [RI] processEvents: missing event at index=1
+processEvents @ ResponseItem.vue:260
+onIframeLoad @ ResponseItem.vue:86
+callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
+invoker @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7651
+load
+addEventListener @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7612
+patchEvent @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7624
+patchProp @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7679
+mountElement @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5368
+processElement @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5347
+patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5293
+mountChildren @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5406
+mountElement @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5364
+processElement @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5347
+patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5293
+mountChildren @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5406
+mountElement @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5364
+processElement @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5347
+patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5293
+mountChildren @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5406
+processFragment @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5490
+patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5291
+componentUpdateFn @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5567
+run @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:426
+setupRenderEffect @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5635
+mountComponent @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5519
+processComponent @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5499
+patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5294
+mountChildren @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5406
+processFragment @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5490
+patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5291
+mountChildren @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5406
+processFragment @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5490
+patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5291
+patchKeyedChildren @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5711
+patchChildren @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5655
+processFragment @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5494
+patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5291
+patchBlockChildren @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5460
+patchElement @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5427
+processElement @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5352
+patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5293
+componentUpdateFn @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5614
+run @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:426
+runIfDirty @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:453
+callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
+flushJobs @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:2039
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1981
+queueJob @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1977
+baseWatchOptions.scheduler @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:2398
+effect.scheduler @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1680
+trigger @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:446
+endBatch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:496
+noTracking @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:978
+push @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:875
+addUserMessage @ chat.js:23
+wrappedAction @ pinia.js?v=5b3ae460:4789
+store.<computed> @ pinia.js?v=5b3ae460:4476
+(anonymous) @ App.vue:422
+Promise.then
+sendGeometry @ App.vue:419
+callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
+invoker @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7651Understand this warningAI
+ResponseItem.vue:357 [RI] processEvents: END index=1 total=1
+about:srcdoc:950 [tpl3] missing function undefined
+(anonymous) @ about:srcdoc:950Understand this warningAI
+about:srcdoc:1 [Intervention] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/fonts/KaTeX_Main-Regular.woff2
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'summary', params: {…}, msg_id: 'e568a3ae-ce48-4709-907c-ae8f637c4762'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=2 processing=false index=1
+ResponseItem.vue:249 [RI] processEvents: START index=1 total=2 iframeReady=true
+ResponseItem.vue:263 [RI] event[1] type=command action=summary name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> showSummary Proxy(Object) {section_id: 'seg_1', content: '读题建模：认识三角形ABC'}
+ResponseItem.vue:260 [RI] processEvents: missing event at index=2
+processEvents @ ResponseItem.vue:260
+(anonymous) @ ResponseItem.vue:398
+callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
+baseWatchOptions.call @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:2389
+job @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1671
+callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
+flushJobs @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:2039
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1981
+queueJob @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1977
+effect.scheduler @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5631
+trigger @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:446
+endBatch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:496
+noTracking @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:978
+push @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:875
+addResponseEvent @ chat.js:53
+wrappedAction @ pinia.js?v=5b3ae460:4789
+store.<computed> @ pinia.js?v=5b3ae460:4476
+handleGeometryStreamEvent @ App.vue:272
+(anonymous) @ App.vue:463
+(anonymous) @ api.js:314
+Promise.then
+sendGeometryChat @ api.js:275
+(anonymous) @ App.vue:456
+Promise.then
+sendGeometry @ App.vue:419
+callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
+invoker @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7651Understand this warningAI
+ResponseItem.vue:357 [RI] processEvents: END index=2 total=2
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: 'd8c56824-6e2d-4d17-a3b5-0364a88adfb6'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=3 processing=false index=2
+ResponseItem.vue:249 [RI] processEvents: START index=2 total=3 iframeReady=true
+ResponseItem.vue:263 [RI] event[2] type=command action=bullet name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_1', content: 'BC = 5 m（未折断部分）'}
+ResponseItem.vue:260 [RI] processEvents: missing event at index=3
+processEvents @ ResponseItem.vue:260
+(anonymous) @ ResponseItem.vue:398
+callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
+baseWatchOptions.call @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:2389
+job @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1671
+callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
+flushJobs @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:2039
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1981
+queueJob @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1977
+effect.scheduler @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5631
+trigger @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:446
+endBatch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:496
+noTracking @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:978
+push @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:875
+addResponseEvent @ chat.js:53
+wrappedAction @ pinia.js?v=5b3ae460:4789
+store.<computed> @ pinia.js?v=5b3ae460:4476
+handleGeometryStreamEvent @ App.vue:272
+(anonymous) @ App.vue:463
+(anonymous) @ api.js:314
+Promise.then
+sendGeometryChat @ api.js:275
+(anonymous) @ App.vue:456
+Promise.then
+sendGeometry @ App.vue:419
+callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
+invoker @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7651Understand this warningAI
+ResponseItem.vue:357 [RI] processEvents: END index=3 total=3
+api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '我们先来读懂题目的意思。旗杆原本竖直立在地面上，在离地面5米的地方折断了。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq', durationMs: 7200, msg_id: '66df3126-be0a-4b0e-ba4c-2dc0220cfb1c'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=4 processing=false index=3
+ResponseItem.vue:249 [RI] processEvents: START index=3 total=4 iframeReady=true
+ResponseItem.vue:263 [RI] event[3] type=audio action= name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '我们先来读懂题目的意思。旗杆原本竖直立在地面上，在离地面5米的地方折断了。'}
+ResponseItem.vue:274 [RI] audio[3]: hasBytes=true bytesLen=155888 mode=demo
+ResponseItem.vue:113 [RI] playAudio: start, b64 length=155888
+ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: '4b05d5ad-9c23-4815-a135-5a8fd6cd4ddc'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=5 processing=true index=3
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
+api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '折断的那一截旗杆，顶部落在离旗杆底部12米的地方，也就是图中的A点。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq', durationMs: 5436, msg_id: '0077f252-0cb8-4e8d-9a40-5412ad1a0125'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=6 processing=true index=3
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: '25d86b53-1b01-4ff0-8d1f-0fcb8ab82d62'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=7 processing=true index=3
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
+api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '折断的那一截旗杆，就变成了连接B点和A点的斜线段AB。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV', durationMs: 5220, msg_id: '32c9f64e-44fe-42e7-b44f-3a16abd41b02'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=8 processing=true index=3
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: 'f80eccfc-a05c-47fc-86c7-153dbc83af58'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=9 processing=true index=3
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
+api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '这样，B、C、A三个点就围成了一个三角形。因为旗杆垂直于地面，所以角C等于90度，这是一个直角三角形。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq', durationMs: 8712, msg_id: '9436b529-2c2b-41e8-b4c7-8b7bba4e3617'}
+api.js:313 [sendGeometryChat] 收到事件: cv_info {type: 'cv_info', image_cv_info: {…}, msg_id: 'd77c621d-c79a-4537-8555-476c20bdf73d'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=11 processing=true index=3
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'focusShapeParts', params: {…}, msg_id: 'f492ab4b-7018-4079-bb9d-f2deb314cc99'}
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'focusShapeParts', params: {…}, msg_id: '68c95321-8019-4c13-9b30-9bfc7442fd62'}
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'focusShapeParts', params: {…}, msg_id: '192a0a88-21bf-42ae-b7d9-a58a5f199bf0'}
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'focusShapeParts', params: {…}, msg_id: 'd71d795c-3632-473e-9753-1b4002e2b3f7'}
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'summary', params: {…}, msg_id: '32304e77-a33b-428f-9274-b48ee8f7a3e6'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=16 processing=true index=3
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: 'cec252fa-c52b-4ead-8591-fd37f75ab59b'}
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'focusShapeParts', params: {…}, msg_id: '52a2ef1c-9b88-4e46-81fc-674e25d56a72'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=18 processing=true index=3
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
+api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '好，现在我们来求折断部分AB的长度。在直角三角形ABC中，AB是斜边，BC和AC是两条直角边，可以用勾股定理来算。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV', durationMs: 11412, msg_id: 'f59bedf1-2ce2-4c7c-b24f-b1f08a6aeabe'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=19 processing=true index=3
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
+ResponseItem.vue:118 [RI] playAudio: ended
+ResponseItem.vue:263 [RI] event[4] type=command action=bullet name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_1', content: 'AC = 12 m（地面距离）'}
+ResponseItem.vue:263 [RI] event[5] type=audio action= name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '折断的那一截旗杆，顶部落在离旗杆底部12米的地方，也就是图中的A点。'}
+ResponseItem.vue:274 [RI] audio[5]: hasBytes=true bytesLen=118256 mode=demo
+ResponseItem.vue:113 [RI] playAudio: start, b64 length=118256
+ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: 'b9f383ee-43a0-4eab-9983-4f408dadad1f'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=20 processing=true index=5
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'beginDerivedExpression', params: {…}, msg_id: '243ccbc8-4a96-4a4c-9a28-6253891839e1'}
+api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '我们把BC等于5、AC等于12代入，先算BC的平方，是25；再算AC的平方，是144。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq', durationMs: 9612, msg_id: '058e2f2b-8377-427e-b5e3-e41d74a57904'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=22 processing=true index=5
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: 'ae58493d-05bb-4db8-a951-8bce3f3da883'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=23 processing=true index=5
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'focusExpressionGroup', params: {…}, msg_id: '21bf500a-c455-47f4-b8e6-8508af8dac2e'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=24 processing=true index=5
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
+api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '25加144等于169，所以AB的平方是169。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq', durationMs: 6192, msg_id: '5c0390d4-5596-458c-bab2-755144708184'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=25 processing=true index=5
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: 'c32db615-4529-494d-97be-3f3cfd854c48'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=26 processing=true index=5
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'confirmDerivedExpression', params: {…}, msg_id: '03b2a5df-3165-4c62-96fc-01b2625a72c3'}
+api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '因为线段长度是正数，所以AB等于根号169，也就是13米。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV', durationMs: 8208, msg_id: '0181b06d-d734-475e-bf70-80b8872a9f63'}
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'summary', params: {…}, msg_id: 'b11d3f32-61ec-45b3-ba47-3021e15ef03d'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=29 processing=true index=5
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: '3a70bb28-9941-401a-bad6-3b2f00534394'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=30 processing=true index=5
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'focusShapeParts', params: {…}, msg_id: 'dca3665a-1cc3-48c6-847b-0b20a08c87ca'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=31 processing=true index=5
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
+api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '太好了！折断部分AB我们已经求出来是13米。现在来想一想，旗杆折断之前的总高度是哪两段加在一起呢？', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq', durationMs: 9828, msg_id: '5f31afec-b381-418f-8713-1f41e5905677'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=32 processing=true index=5
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
+ResponseItem.vue:118 [RI] playAudio: ended
+ResponseItem.vue:263 [RI] event[6] type=command action=bullet name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_1', content: 'AB = 折断部分（待求）'}
+ResponseItem.vue:263 [RI] event[7] type=audio action= name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '折断的那一截旗杆，就变成了连接B点和A点的斜线段AB。'}
+ResponseItem.vue:274 [RI] audio[7]: hasBytes=true bytesLen=113648 mode=demo
+ResponseItem.vue:113 [RI] playAudio: start, b64 length=113648
+ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: '9ef984e7-5463-493e-a7b6-1f2e93ad97dc'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=33 processing=true index=7
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=7
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'focusShapeParts', params: {…}, msg_id: '2c4d80a7-2de0-46ab-b703-077438e8d7fb'}
+api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '没错，就是未折断部分BC加上折断部分AB，也就是5米加13米。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq', durationMs: 7812, msg_id: 'b08d2a1f-3509-4f4a-8ef9-ba926c962eb2'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=35 processing=true index=7
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=7
+api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'updateBoard', params: {…}, msg_id: 'b55f3f80-2ec7-448b-90db-3aae8ee49b6d'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=36 processing=true index=7
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=7
+api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '5加13等于18，所以旗杆折断之前的高度是18米。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV', durationMs: 4680, msg_id: 'eb17ae7b-af97-407f-9d3b-5ce9d82d260b'}
+api.js:313 [sendGeometryChat] 收到事件: done {type: 'done'}
+ResponseItem.vue:397 [RI] watcher → processEvents, events=37 processing=true index=7
+ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=7
+api.js:292 [sendGeometryChat] 流结束
+ResponseItem.vue:118 [RI] playAudio: ended
+ResponseItem.vue:263 [RI] event[8] type=command action=bullet name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_1', content: '∠C = 90°，△ABC 是直角三角形'}
+ResponseItem.vue:263 [RI] event[9] type=audio action= name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '这样，B、C、A三个点就围成了一个三角形。因为旗杆垂直于地面，所以角C等于90度，这是一个直角三角形。'}
+ResponseItem.vue:274 [RI] audio[9]: hasBytes=true bytesLen=188144 mode=demo
+ResponseItem.vue:113 [RI] playAudio: start, b64 length=188144
+ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
+ResponseItem.vue:118 [RI] playAudio: ended
+ResponseItem.vue:263 [RI] event[10] type=cv_info action= name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> init Proxy(Object) {point_list: Array(3), x_range: Array(2), y_range: Array(2), line_list: Array(3), triangle_list: Array(1)}
+ResponseItem.vue:263 [RI] event[11] type=command action=call name=focusShapeParts
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> focusShapeParts Proxy(Object) {kind: 'segments', targetId: 'segment_BC'}
+ResponseItem.vue:263 [RI] event[12] type=command action=call name=focusShapeParts
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> focusShapeParts Proxy(Object) {kind: 'segments', targetId: 'segment_AC'}
+ResponseItem.vue:263 [RI] event[13] type=command action=call name=focusShapeParts
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> focusShapeParts Proxy(Object) {kind: 'segments', targetId: 'segment_AB'}
+ResponseItem.vue:263 [RI] event[14] type=command action=call name=focusShapeParts
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> focusShapeParts Proxy(Object) {kind: 'regions', targetId: 'triangle_ABC'}
+ResponseItem.vue:263 [RI] event[15] type=command action=summary name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> showSummary Proxy(Object) {section_id: 'seg_2', content: '用勾股定理求斜边AB'}
+ResponseItem.vue:263 [RI] event[16] type=command action=bullet name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_2', content: '勾股定理：AB² = BC² + AC²'}
+ResponseItem.vue:263 [RI] event[17] type=command action=call name=focusShapeParts
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> focusShapeParts Proxy(Object) {kind: 'segments', targetId: 'segment_AB'}
+ResponseItem.vue:263 [RI] event[18] type=audio action= name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '好，现在我们来求折断部分AB的长度。在直角三角形ABC中，AB是斜边，BC和AC是两条直角边，可以用勾股定理来算。'}
+ResponseItem.vue:274 [RI] audio[18]: hasBytes=true bytesLen=245744 mode=demo
+ResponseItem.vue:113 [RI] playAudio: start, b64 length=245744
+ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
+ResponseItem.vue:118 [RI] playAudio: ended
+ResponseItem.vue:263 [RI] event[19] type=command action=bullet name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_2', content: 'AB² = 5² + 12² = 25 + 144'}
+ResponseItem.vue:263 [RI] event[20] type=command action=call name=beginDerivedExpression
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> beginDerivedExpression Proxy(Object) {type: 'pythagorean', expression: 'AB² = BC² + AC²', groups: Array(3)}
+ResponseItem.vue:263 [RI] event[21] type=audio action= name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '我们把BC等于5、AC等于12代入，先算BC的平方，是25；再算AC的平方，是144。'}
+ResponseItem.vue:274 [RI] audio[21]: hasBytes=true bytesLen=207344 mode=demo
+ResponseItem.vue:113 [RI] playAudio: start, b64 length=207344
+ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
+ResponseItem.vue:118 [RI] playAudio: ended
+ResponseItem.vue:263 [RI] event[22] type=command action=bullet name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_2', content: 'AB² = 169'}
+ResponseItem.vue:263 [RI] event[23] type=command action=call name=focusExpressionGroup
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> focusExpressionGroup Proxy(Object) {index: '2'}
+ResponseItem.vue:263 [RI] event[24] type=audio action= name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '25加144等于169，所以AB的平方是169。'}
+ResponseItem.vue:274 [RI] audio[24]: hasBytes=true bytesLen=134384 mode=demo
+ResponseItem.vue:113 [RI] playAudio: start, b64 length=134384
+ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
+ResponseItem.vue:118 [RI] playAudio: ended
+ResponseItem.vue:263 [RI] event[25] type=command action=bullet name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_2', content: 'AB = √169 = 13 m ✓'}
+ResponseItem.vue:263 [RI] event[26] type=command action=call name=confirmDerivedExpression
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> confirmDerivedExpression Proxy(Object) {type: 'pythagorean', expression: 'AB = 13 m'}
+ResponseItem.vue:263 [RI] event[27] type=audio action= name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '因为线段长度是正数，所以AB等于根号169，也就是13米。'}
+ResponseItem.vue:274 [RI] audio[27]: hasBytes=true bytesLen=177392 mode=demo
+ResponseItem.vue:113 [RI] playAudio: start, b64 length=177392
+ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
+ResponseItem.vue:118 [RI] playAudio: ended
+ResponseItem.vue:263 [RI] event[28] type=command action=summary name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> showSummary Proxy(Object) {section_id: 'seg_3', content: '求旗杆折断前的总高度'}
+ResponseItem.vue:263 [RI] event[29] type=command action=bullet name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_3', content: '总高度 = 未折断部分 + 折断部分'}
+ResponseItem.vue:263 [RI] event[30] type=command action=call name=focusShapeParts
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> focusShapeParts Proxy(Object) {kind: 'segments', targetId: 'segment_BC'}
+ResponseItem.vue:263 [RI] event[31] type=audio action= name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '太好了！折断部分AB我们已经求出来是13米。现在来想一想，旗杆折断之前的总高度是哪两段加在一起呢？'}
+ResponseItem.vue:274 [RI] audio[31]: hasBytes=true bytesLen=211952 mode=demo
+ResponseItem.vue:113 [RI] playAudio: start, b64 length=211952
+ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
+ResponseItem.vue:118 [RI] playAudio: ended
+ResponseItem.vue:263 [RI] event[32] type=command action=bullet name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_3', content: '总高度 = BC + AB = 5 + 13'}
+ResponseItem.vue:263 [RI] event[33] type=command action=call name=focusShapeParts
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> focusShapeParts Proxy(Object) {kind: 'segments', targetId: 'segment_AB'}
+ResponseItem.vue:263 [RI] event[34] type=audio action= name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '没错，就是未折断部分BC加上折断部分AB，也就是5米加13米。'}
+ResponseItem.vue:274 [RI] audio[34]: hasBytes=true bytesLen=168944 mode=demo
+ResponseItem.vue:113 [RI] playAudio: start, b64 length=168944
+ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
+ResponseItem.vue:118 [RI] playAudio: ended
+ResponseItem.vue:263 [RI] event[35] type=command action=call name=updateBoard
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> updateBoard Proxy(Object) {section_id: 'final', title: '最终答案', content: 'BC = 5 m，AB = 13 m\n总高度 = BC + AB = 5 + 13 = **18 m**'}
+ResponseItem.vue:263 [RI] event[36] type=audio action= name=
+ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '5加13等于18，所以旗杆折断之前的高度是18米。'}
+ResponseItem.vue:274 [RI] audio[36]: hasBytes=true bytesLen=102128 mode=demo
+ResponseItem.vue:113 [RI] playAudio: start, b64 length=102128
+ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
+ResponseItem.vue:118 [RI] playAudio: ended
+ResponseItem.vue:260 [RI] processEvents: missing event at index=37
+processEvents @ ResponseItem.vue:260
+await in processEvents
+(anonymous) @ ResponseItem.vue:398
+callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
+baseWatchOptions.call @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:2389
+job @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1671
+callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
+flushJobs @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:2039
+Promise.then
+queueFlush @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1981
+queueJob @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1977
+effect.scheduler @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5631
+trigger @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:446
+endBatch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:496
+noTracking @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:978
+push @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:875
+addResponseEvent @ chat.js:53
+wrappedAction @ pinia.js?v=5b3ae460:4789
+store.<computed> @ pinia.js?v=5b3ae460:4476
+handleGeometryStreamEvent @ App.vue:272
+(anonymous) @ App.vue:463
+(anonymous) @ api.js:314
+Promise.then
+sendGeometryChat @ api.js:275
+(anonymous) @ App.vue:456
+Promise.then
+sendGeometry @ App.vue:419
+callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
+callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
+invoker @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7651Understand this warningAI
+ResponseItem.vue:357 [RI] processEvents: END index=37 total=37
