@@ -1,4 +1,10 @@
 export const EXCLUDED_TIDS = [
+  '491790740_grounded',
+  'semantic_arc_smoke',
+  '9471047bdededfa535720c24e2e85d82',
+  'semantic_visual_smoke',
+  'circle_arc_grounded',
+  'similar_ratio_grounded',
 ]
 
 export function normalizeTid(value = '') {

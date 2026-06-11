@@ -1,527 +1,901 @@
-contentscript.js:14083 MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added. Use emitter.setMaxListeners() to increase limit
-n @ contentscript.js:14083
-u @ contentscript.js:14083
-a.addListener @ contentscript.js:14083
-Z.on @ contentscript.js:14082
-a.once @ contentscript.js:14083
-E.pipe @ contentscript.js:14063
-q @ contentscript.js:14063
-D @ contentscript.js:14063
-P @ contentscript.js:14063
-M @ contentscript.js:14063
-I @ contentscript.js:14063
-(anonymous) @ contentscript.js:14083
-call.__webpack_require__._LM_.__webpack_require__.__webpack_require__ @ contentscript.js:14083
-(anonymous) @ contentscript.js:14083
-(anonymous) @ contentscript.js:14083Understand this warningAI
-contentscript.js:14083 MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 end listeners added. Use emitter.setMaxListeners() to increase limit
-n @ contentscript.js:14083
-u @ contentscript.js:14083
-a.addListener @ contentscript.js:14083
-Z.on @ contentscript.js:14082
-O @ contentscript.js:14083
-q @ contentscript.js:14063
-D @ contentscript.js:14063
-P @ contentscript.js:14063
-M @ contentscript.js:14063
-I @ contentscript.js:14063
-(anonymous) @ contentscript.js:14083
-call.__webpack_require__._LM_.__webpack_require__.__webpack_require__ @ contentscript.js:14083
-(anonymous) @ contentscript.js:14083
-(anonymous) @ contentscript.js:14083Understand this warningAI
-contentscript.js:14083 ObjectMultiplex - orphaned data for stream "app-init-liveness"
-warn @ contentscript.js:14083
-_write @ contentscript.js:14082
-M @ contentscript.js:14063
-x @ contentscript.js:14063
-j.write @ contentscript.js:14063
-d @ contentscript.js:14082
-a.emit @ contentscript.js:14083
-J @ contentscript.js:14082
-K @ contentscript.js:14082
-Z.push @ contentscript.js:14082
-(anonymous) @ contentscript.js:14063Understand this warningAI
-contentscript.js:14083 ObjectMultiplex - orphaned data for stream "app-init-liveness"
-warn @ contentscript.js:14083
-_write @ contentscript.js:14082
-M @ contentscript.js:14063
-x @ contentscript.js:14063
-j.write @ contentscript.js:14063
-d @ contentscript.js:14082
-a.emit @ contentscript.js:14083
-J @ contentscript.js:14082
-K @ contentscript.js:14082
-Z.push @ contentscript.js:14082
-(anonymous) @ contentscript.js:14082
-transform @ contentscript.js:14063
-s._write @ contentscript.js:14082
-I @ contentscript.js:14083
-L @ contentscript.js:14083
-O.write @ contentscript.js:14083
-d @ contentscript.js:14082
-a.emit @ contentscript.js:14083
-J @ contentscript.js:14082
-K @ contentscript.js:14082
-Z.push @ contentscript.js:14082
-(anonymous) @ contentscript.js:14063Understand this warningAI
-contentscript.js:14083 ObjectMultiplex - orphaned data for stream "background-liveness"
-warn @ contentscript.js:14083
-_write @ contentscript.js:14082
-M @ contentscript.js:14063
-x @ contentscript.js:14063
-j.write @ contentscript.js:14063
-d @ contentscript.js:14082
-a.emit @ contentscript.js:14083
-J @ contentscript.js:14082
-K @ contentscript.js:14082
-Z.push @ contentscript.js:14082
-(anonymous) @ contentscript.js:14063Understand this warningAI
-contentscript.js:14083 ObjectMultiplex - orphaned data for stream "background-liveness"
-warn @ contentscript.js:14083
-_write @ contentscript.js:14082
-M @ contentscript.js:14063
-x @ contentscript.js:14063
-j.write @ contentscript.js:14063
-d @ contentscript.js:14082
-a.emit @ contentscript.js:14083
-J @ contentscript.js:14082
-K @ contentscript.js:14082
-Z.push @ contentscript.js:14082
-(anonymous) @ contentscript.js:14082
-transform @ contentscript.js:14063
-s._write @ contentscript.js:14082
-I @ contentscript.js:14083
-L @ contentscript.js:14083
-O.write @ contentscript.js:14083
-d @ contentscript.js:14082
-a.emit @ contentscript.js:14083
-J @ contentscript.js:14082
-K @ contentscript.js:14082
-Z.push @ contentscript.js:14082
-(anonymous) @ contentscript.js:14063Understand this warningAI
-contentscript.js:14083 ObjectMultiplex - malformed chunk without name "[object Object]"
-warn @ contentscript.js:14083
-_write @ contentscript.js:14082
-M @ contentscript.js:14063
-x @ contentscript.js:14063
-j.write @ contentscript.js:14063
-d @ contentscript.js:14082
-a.emit @ contentscript.js:14083
-J @ contentscript.js:14082
-K @ contentscript.js:14082
-Z.push @ contentscript.js:14082
-(anonymous) @ contentscript.js:14063Understand this warningAI
-contentscript.js:14083 ObjectMultiplex - malformed chunk without name "[object Object]"
-warn @ contentscript.js:14083
-_write @ contentscript.js:14082
-M @ contentscript.js:14063
-x @ contentscript.js:14063
-j.write @ contentscript.js:14063
-d @ contentscript.js:14082
-a.emit @ contentscript.js:14083
-J @ contentscript.js:14082
-K @ contentscript.js:14082
-Z.push @ contentscript.js:14082
-(anonymous) @ contentscript.js:14082
-transform @ contentscript.js:14063
-s._write @ contentscript.js:14082
-I @ contentscript.js:14083
-L @ contentscript.js:14083
-O.write @ contentscript.js:14083
-d @ contentscript.js:14082
-a.emit @ contentscript.js:14083
-J @ contentscript.js:14082
-K @ contentscript.js:14082
-Z.push @ contentscript.js:14082
-(anonymous) @ contentscript.js:14063Understand this warningAI
-App.vue:189 [App] unlockAudio silent play failed: NotSupportedError: Failed to load because no supported source was found.
-(anonymous) @ App.vue:189
-Promise.catch
-unlockAudio @ App.vue:188
-sendGeometry @ App.vue:402
-callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
-callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
-invoker @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7651Understand this warningAI
-api.js:264 [sendGeometryChat] 请求参数: {tid: '03e10f0eb88f2333eee3b87ff0fa675c', user_profile: 'learning.math.exercise: 遇到综合题容易一下子跳到结论，需要更清楚的中间步骤。…nce: 讲解时多用“我们先……再……最后……”的结构，关键推导不要跳步，每完成一步给出轻量提醒。', prompt_version: '2'}
-api.js:280 [sendGeometryChat] 连接成功，开始接收 SSE
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'problem', params: {…}, msg_id: '57063d63-12e3-4307-ba85-1e4cc0a48c35'}
-ResponseItem.vue:394 [RI] watcher defer: iframeReady=false, events=1
-ResponseItem.vue:70 [RI] onIframeLoad: events=1 processing=false currentIndex=0 isReplaying=false
-ResponseItem.vue:85 [RI] onIframeLoad: → processEvents()
-ResponseItem.vue:249 [RI] processEvents: START index=0 total=1 iframeReady=true
-ResponseItem.vue:263 [RI] event[0] type=command action=problem name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> renderProblem Proxy(Object) {content: '如图,一根垂直于地面的旗杆在离地面5m处撕裂折断,旗杆顶部落在离旗杆底部12m处,旗杆折断之前的高度是$\\_\\_\\_\\_$m.'}
-ResponseItem.vue:260 [RI] processEvents: missing event at index=1
-processEvents @ ResponseItem.vue:260
-onIframeLoad @ ResponseItem.vue:86
-callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
-callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
-invoker @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7651
-load
-addEventListener @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7612
-patchEvent @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7624
-patchProp @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7679
-mountElement @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5368
-processElement @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5347
-patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5293
-mountChildren @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5406
-mountElement @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5364
-processElement @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5347
-patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5293
-mountChildren @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5406
-mountElement @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5364
-processElement @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5347
-patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5293
-mountChildren @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5406
-processFragment @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5490
-patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5291
-componentUpdateFn @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5567
-run @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:426
-setupRenderEffect @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5635
-mountComponent @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5519
-processComponent @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5499
-patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5294
-mountChildren @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5406
-processFragment @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5490
-patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5291
-mountChildren @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5406
-processFragment @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5490
-patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5291
-patchKeyedChildren @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5711
-patchChildren @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5655
-processFragment @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5494
-patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5291
-patchBlockChildren @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5460
-patchElement @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5427
-processElement @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5352
-patch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5293
-componentUpdateFn @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5614
-run @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:426
-runIfDirty @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:453
-callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
-flushJobs @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:2039
-Promise.then
-queueFlush @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1981
-queueJob @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1977
-baseWatchOptions.scheduler @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:2398
-effect.scheduler @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1680
-trigger @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:446
-endBatch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:496
-noTracking @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:978
-push @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:875
-addUserMessage @ chat.js:23
-wrappedAction @ pinia.js?v=5b3ae460:4789
-store.<computed> @ pinia.js?v=5b3ae460:4476
-(anonymous) @ App.vue:422
-Promise.then
-sendGeometry @ App.vue:419
-callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
-callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
-invoker @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7651Understand this warningAI
-ResponseItem.vue:357 [RI] processEvents: END index=1 total=1
-about:srcdoc:950 [tpl3] missing function undefined
-(anonymous) @ about:srcdoc:950Understand this warningAI
-about:srcdoc:1 [Intervention] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/fonts/KaTeX_Main-Regular.woff2
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'summary', params: {…}, msg_id: 'e568a3ae-ce48-4709-907c-ae8f637c4762'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=2 processing=false index=1
-ResponseItem.vue:249 [RI] processEvents: START index=1 total=2 iframeReady=true
-ResponseItem.vue:263 [RI] event[1] type=command action=summary name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> showSummary Proxy(Object) {section_id: 'seg_1', content: '读题建模：认识三角形ABC'}
-ResponseItem.vue:260 [RI] processEvents: missing event at index=2
-processEvents @ ResponseItem.vue:260
-(anonymous) @ ResponseItem.vue:398
-callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
-callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
-baseWatchOptions.call @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:2389
-job @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1671
-callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
-flushJobs @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:2039
-Promise.then
-queueFlush @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1981
-queueJob @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1977
-effect.scheduler @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5631
-trigger @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:446
-endBatch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:496
-noTracking @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:978
-push @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:875
-addResponseEvent @ chat.js:53
-wrappedAction @ pinia.js?v=5b3ae460:4789
-store.<computed> @ pinia.js?v=5b3ae460:4476
-handleGeometryStreamEvent @ App.vue:272
-(anonymous) @ App.vue:463
-(anonymous) @ api.js:314
-Promise.then
-sendGeometryChat @ api.js:275
-(anonymous) @ App.vue:456
-Promise.then
-sendGeometry @ App.vue:419
-callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
-callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
-invoker @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7651Understand this warningAI
-ResponseItem.vue:357 [RI] processEvents: END index=2 total=2
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: 'd8c56824-6e2d-4d17-a3b5-0364a88adfb6'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=3 processing=false index=2
-ResponseItem.vue:249 [RI] processEvents: START index=2 total=3 iframeReady=true
-ResponseItem.vue:263 [RI] event[2] type=command action=bullet name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_1', content: 'BC = 5 m（未折断部分）'}
-ResponseItem.vue:260 [RI] processEvents: missing event at index=3
-processEvents @ ResponseItem.vue:260
-(anonymous) @ ResponseItem.vue:398
-callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
-callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
-baseWatchOptions.call @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:2389
-job @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1671
-callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
-flushJobs @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:2039
-Promise.then
-queueFlush @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1981
-queueJob @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1977
-effect.scheduler @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5631
-trigger @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:446
-endBatch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:496
-noTracking @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:978
-push @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:875
-addResponseEvent @ chat.js:53
-wrappedAction @ pinia.js?v=5b3ae460:4789
-store.<computed> @ pinia.js?v=5b3ae460:4476
-handleGeometryStreamEvent @ App.vue:272
-(anonymous) @ App.vue:463
-(anonymous) @ api.js:314
-Promise.then
-sendGeometryChat @ api.js:275
-(anonymous) @ App.vue:456
-Promise.then
-sendGeometry @ App.vue:419
-callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
-callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
-invoker @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7651Understand this warningAI
-ResponseItem.vue:357 [RI] processEvents: END index=3 total=3
-api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '我们先来读懂题目的意思。旗杆原本竖直立在地面上，在离地面5米的地方折断了。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq', durationMs: 7200, msg_id: '66df3126-be0a-4b0e-ba4c-2dc0220cfb1c'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=4 processing=false index=3
-ResponseItem.vue:249 [RI] processEvents: START index=3 total=4 iframeReady=true
-ResponseItem.vue:263 [RI] event[3] type=audio action= name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '我们先来读懂题目的意思。旗杆原本竖直立在地面上，在离地面5米的地方折断了。'}
-ResponseItem.vue:274 [RI] audio[3]: hasBytes=true bytesLen=155888 mode=demo
-ResponseItem.vue:113 [RI] playAudio: start, b64 length=155888
-ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: '4b05d5ad-9c23-4815-a135-5a8fd6cd4ddc'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=5 processing=true index=3
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
-api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '折断的那一截旗杆，顶部落在离旗杆底部12米的地方，也就是图中的A点。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq', durationMs: 5436, msg_id: '0077f252-0cb8-4e8d-9a40-5412ad1a0125'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=6 processing=true index=3
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: '25d86b53-1b01-4ff0-8d1f-0fcb8ab82d62'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=7 processing=true index=3
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
-api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '折断的那一截旗杆，就变成了连接B点和A点的斜线段AB。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV', durationMs: 5220, msg_id: '32c9f64e-44fe-42e7-b44f-3a16abd41b02'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=8 processing=true index=3
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: 'f80eccfc-a05c-47fc-86c7-153dbc83af58'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=9 processing=true index=3
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
-api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '这样，B、C、A三个点就围成了一个三角形。因为旗杆垂直于地面，所以角C等于90度，这是一个直角三角形。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq', durationMs: 8712, msg_id: '9436b529-2c2b-41e8-b4c7-8b7bba4e3617'}
-api.js:313 [sendGeometryChat] 收到事件: cv_info {type: 'cv_info', image_cv_info: {…}, msg_id: 'd77c621d-c79a-4537-8555-476c20bdf73d'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=11 processing=true index=3
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'focusShapeParts', params: {…}, msg_id: 'f492ab4b-7018-4079-bb9d-f2deb314cc99'}
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'focusShapeParts', params: {…}, msg_id: '68c95321-8019-4c13-9b30-9bfc7442fd62'}
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'focusShapeParts', params: {…}, msg_id: '192a0a88-21bf-42ae-b7d9-a58a5f199bf0'}
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'focusShapeParts', params: {…}, msg_id: 'd71d795c-3632-473e-9753-1b4002e2b3f7'}
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'summary', params: {…}, msg_id: '32304e77-a33b-428f-9274-b48ee8f7a3e6'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=16 processing=true index=3
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: 'cec252fa-c52b-4ead-8591-fd37f75ab59b'}
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'focusShapeParts', params: {…}, msg_id: '52a2ef1c-9b88-4e46-81fc-674e25d56a72'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=18 processing=true index=3
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
-api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '好，现在我们来求折断部分AB的长度。在直角三角形ABC中，AB是斜边，BC和AC是两条直角边，可以用勾股定理来算。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV', durationMs: 11412, msg_id: 'f59bedf1-2ce2-4c7c-b24f-b1f08a6aeabe'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=19 processing=true index=3
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=3
-ResponseItem.vue:118 [RI] playAudio: ended
-ResponseItem.vue:263 [RI] event[4] type=command action=bullet name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_1', content: 'AC = 12 m（地面距离）'}
-ResponseItem.vue:263 [RI] event[5] type=audio action= name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '折断的那一截旗杆，顶部落在离旗杆底部12米的地方，也就是图中的A点。'}
-ResponseItem.vue:274 [RI] audio[5]: hasBytes=true bytesLen=118256 mode=demo
-ResponseItem.vue:113 [RI] playAudio: start, b64 length=118256
-ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: 'b9f383ee-43a0-4eab-9983-4f408dadad1f'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=20 processing=true index=5
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'beginDerivedExpression', params: {…}, msg_id: '243ccbc8-4a96-4a4c-9a28-6253891839e1'}
-api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '我们把BC等于5、AC等于12代入，先算BC的平方，是25；再算AC的平方，是144。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq', durationMs: 9612, msg_id: '058e2f2b-8377-427e-b5e3-e41d74a57904'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=22 processing=true index=5
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: 'ae58493d-05bb-4db8-a951-8bce3f3da883'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=23 processing=true index=5
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'focusExpressionGroup', params: {…}, msg_id: '21bf500a-c455-47f4-b8e6-8508af8dac2e'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=24 processing=true index=5
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
-api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '25加144等于169，所以AB的平方是169。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq', durationMs: 6192, msg_id: '5c0390d4-5596-458c-bab2-755144708184'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=25 processing=true index=5
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: 'c32db615-4529-494d-97be-3f3cfd854c48'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=26 processing=true index=5
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'confirmDerivedExpression', params: {…}, msg_id: '03b2a5df-3165-4c62-96fc-01b2625a72c3'}
-api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '因为线段长度是正数，所以AB等于根号169，也就是13米。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV', durationMs: 8208, msg_id: '0181b06d-d734-475e-bf70-80b8872a9f63'}
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'summary', params: {…}, msg_id: 'b11d3f32-61ec-45b3-ba47-3021e15ef03d'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=29 processing=true index=5
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: '3a70bb28-9941-401a-bad6-3b2f00534394'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=30 processing=true index=5
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'focusShapeParts', params: {…}, msg_id: 'dca3665a-1cc3-48c6-847b-0b20a08c87ca'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=31 processing=true index=5
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
-api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '太好了！折断部分AB我们已经求出来是13米。现在来想一想，旗杆折断之前的总高度是哪两段加在一起呢？', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq', durationMs: 9828, msg_id: '5f31afec-b381-418f-8713-1f41e5905677'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=32 processing=true index=5
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=5
-ResponseItem.vue:118 [RI] playAudio: ended
-ResponseItem.vue:263 [RI] event[6] type=command action=bullet name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_1', content: 'AB = 折断部分（待求）'}
-ResponseItem.vue:263 [RI] event[7] type=audio action= name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '折断的那一截旗杆，就变成了连接B点和A点的斜线段AB。'}
-ResponseItem.vue:274 [RI] audio[7]: hasBytes=true bytesLen=113648 mode=demo
-ResponseItem.vue:113 [RI] playAudio: start, b64 length=113648
-ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'bullet', params: {…}, msg_id: '9ef984e7-5463-493e-a7b6-1f2e93ad97dc'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=33 processing=true index=7
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=7
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'focusShapeParts', params: {…}, msg_id: '2c4d80a7-2de0-46ab-b703-077438e8d7fb'}
-api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '没错，就是未折断部分BC加上折断部分AB，也就是5米加13米。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq', durationMs: 7812, msg_id: 'b08d2a1f-3509-4f4a-8ef9-ba926c962eb2'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=35 processing=true index=7
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=7
-api.js:313 [sendGeometryChat] 收到事件: command {type: 'command', action: 'call', name: 'updateBoard', params: {…}, msg_id: 'b55f3f80-2ec7-448b-90db-3aae8ee49b6d'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=36 processing=true index=7
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=7
-api.js:313 [sendGeometryChat] 收到事件: audio {type: 'audio', content: '5加13等于18，所以旗杆折断之前的高度是18米。', bytes: 'SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV', durationMs: 4680, msg_id: 'eb17ae7b-af97-407f-9d3b-5ce9d82d260b'}
-api.js:313 [sendGeometryChat] 收到事件: done {type: 'done'}
-ResponseItem.vue:397 [RI] watcher → processEvents, events=37 processing=true index=7
-ResponseItem.vue:246 [RI] processEvents: skip (already processing), index=7
-api.js:292 [sendGeometryChat] 流结束
-ResponseItem.vue:118 [RI] playAudio: ended
-ResponseItem.vue:263 [RI] event[8] type=command action=bullet name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_1', content: '∠C = 90°，△ABC 是直角三角形'}
-ResponseItem.vue:263 [RI] event[9] type=audio action= name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '这样，B、C、A三个点就围成了一个三角形。因为旗杆垂直于地面，所以角C等于90度，这是一个直角三角形。'}
-ResponseItem.vue:274 [RI] audio[9]: hasBytes=true bytesLen=188144 mode=demo
-ResponseItem.vue:113 [RI] playAudio: start, b64 length=188144
-ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
-ResponseItem.vue:118 [RI] playAudio: ended
-ResponseItem.vue:263 [RI] event[10] type=cv_info action= name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> init Proxy(Object) {point_list: Array(3), x_range: Array(2), y_range: Array(2), line_list: Array(3), triangle_list: Array(1)}
-ResponseItem.vue:263 [RI] event[11] type=command action=call name=focusShapeParts
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> focusShapeParts Proxy(Object) {kind: 'segments', targetId: 'segment_BC'}
-ResponseItem.vue:263 [RI] event[12] type=command action=call name=focusShapeParts
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> focusShapeParts Proxy(Object) {kind: 'segments', targetId: 'segment_AC'}
-ResponseItem.vue:263 [RI] event[13] type=command action=call name=focusShapeParts
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> focusShapeParts Proxy(Object) {kind: 'segments', targetId: 'segment_AB'}
-ResponseItem.vue:263 [RI] event[14] type=command action=call name=focusShapeParts
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> focusShapeParts Proxy(Object) {kind: 'regions', targetId: 'triangle_ABC'}
-ResponseItem.vue:263 [RI] event[15] type=command action=summary name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> showSummary Proxy(Object) {section_id: 'seg_2', content: '用勾股定理求斜边AB'}
-ResponseItem.vue:263 [RI] event[16] type=command action=bullet name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_2', content: '勾股定理：AB² = BC² + AC²'}
-ResponseItem.vue:263 [RI] event[17] type=command action=call name=focusShapeParts
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> focusShapeParts Proxy(Object) {kind: 'segments', targetId: 'segment_AB'}
-ResponseItem.vue:263 [RI] event[18] type=audio action= name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '好，现在我们来求折断部分AB的长度。在直角三角形ABC中，AB是斜边，BC和AC是两条直角边，可以用勾股定理来算。'}
-ResponseItem.vue:274 [RI] audio[18]: hasBytes=true bytesLen=245744 mode=demo
-ResponseItem.vue:113 [RI] playAudio: start, b64 length=245744
-ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
-ResponseItem.vue:118 [RI] playAudio: ended
-ResponseItem.vue:263 [RI] event[19] type=command action=bullet name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_2', content: 'AB² = 5² + 12² = 25 + 144'}
-ResponseItem.vue:263 [RI] event[20] type=command action=call name=beginDerivedExpression
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> beginDerivedExpression Proxy(Object) {type: 'pythagorean', expression: 'AB² = BC² + AC²', groups: Array(3)}
-ResponseItem.vue:263 [RI] event[21] type=audio action= name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '我们把BC等于5、AC等于12代入，先算BC的平方，是25；再算AC的平方，是144。'}
-ResponseItem.vue:274 [RI] audio[21]: hasBytes=true bytesLen=207344 mode=demo
-ResponseItem.vue:113 [RI] playAudio: start, b64 length=207344
-ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
-ResponseItem.vue:118 [RI] playAudio: ended
-ResponseItem.vue:263 [RI] event[22] type=command action=bullet name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_2', content: 'AB² = 169'}
-ResponseItem.vue:263 [RI] event[23] type=command action=call name=focusExpressionGroup
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> focusExpressionGroup Proxy(Object) {index: '2'}
-ResponseItem.vue:263 [RI] event[24] type=audio action= name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '25加144等于169，所以AB的平方是169。'}
-ResponseItem.vue:274 [RI] audio[24]: hasBytes=true bytesLen=134384 mode=demo
-ResponseItem.vue:113 [RI] playAudio: start, b64 length=134384
-ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
-ResponseItem.vue:118 [RI] playAudio: ended
-ResponseItem.vue:263 [RI] event[25] type=command action=bullet name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_2', content: 'AB = √169 = 13 m ✓'}
-ResponseItem.vue:263 [RI] event[26] type=command action=call name=confirmDerivedExpression
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> confirmDerivedExpression Proxy(Object) {type: 'pythagorean', expression: 'AB = 13 m'}
-ResponseItem.vue:263 [RI] event[27] type=audio action= name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '因为线段长度是正数，所以AB等于根号169，也就是13米。'}
-ResponseItem.vue:274 [RI] audio[27]: hasBytes=true bytesLen=177392 mode=demo
-ResponseItem.vue:113 [RI] playAudio: start, b64 length=177392
-ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
-ResponseItem.vue:118 [RI] playAudio: ended
-ResponseItem.vue:263 [RI] event[28] type=command action=summary name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> showSummary Proxy(Object) {section_id: 'seg_3', content: '求旗杆折断前的总高度'}
-ResponseItem.vue:263 [RI] event[29] type=command action=bullet name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_3', content: '总高度 = 未折断部分 + 折断部分'}
-ResponseItem.vue:263 [RI] event[30] type=command action=call name=focusShapeParts
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> focusShapeParts Proxy(Object) {kind: 'segments', targetId: 'segment_BC'}
-ResponseItem.vue:263 [RI] event[31] type=audio action= name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '太好了！折断部分AB我们已经求出来是13米。现在来想一想，旗杆折断之前的总高度是哪两段加在一起呢？'}
-ResponseItem.vue:274 [RI] audio[31]: hasBytes=true bytesLen=211952 mode=demo
-ResponseItem.vue:113 [RI] playAudio: start, b64 length=211952
-ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
-ResponseItem.vue:118 [RI] playAudio: ended
-ResponseItem.vue:263 [RI] event[32] type=command action=bullet name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> addBullet Proxy(Object) {section_id: 'seg_3', content: '总高度 = BC + AB = 5 + 13'}
-ResponseItem.vue:263 [RI] event[33] type=command action=call name=focusShapeParts
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> focusShapeParts Proxy(Object) {kind: 'segments', targetId: 'segment_AB'}
-ResponseItem.vue:263 [RI] event[34] type=audio action= name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '没错，就是未折断部分BC加上折断部分AB，也就是5米加13米。'}
-ResponseItem.vue:274 [RI] audio[34]: hasBytes=true bytesLen=168944 mode=demo
-ResponseItem.vue:113 [RI] playAudio: start, b64 length=168944
-ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
-ResponseItem.vue:118 [RI] playAudio: ended
-ResponseItem.vue:263 [RI] event[35] type=command action=call name=updateBoard
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> updateBoard Proxy(Object) {section_id: 'final', title: '最终答案', content: 'BC = 5 m，AB = 13 m\n总高度 = BC + AB = 5 + 13 = **18 m**'}
-ResponseItem.vue:263 [RI] event[36] type=audio action= name=
-ResponseItem.vue:206 [ResponseItem] sendToIframe -> showLecture {content: '5加13等于18，所以旗杆折断之前的高度是18米。'}
-ResponseItem.vue:274 [RI] audio[36]: hasBytes=true bytesLen=102128 mode=demo
-ResponseItem.vue:113 [RI] playAudio: start, b64 length=102128
-ResponseItem.vue:134 [RI] playAudio: play() resolved (playing)
-ResponseItem.vue:118 [RI] playAudio: ended
-ResponseItem.vue:260 [RI] processEvents: missing event at index=37
-processEvents @ ResponseItem.vue:260
-await in processEvents
-(anonymous) @ ResponseItem.vue:398
-callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
-callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
-baseWatchOptions.call @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:2389
-job @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1671
-callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
-flushJobs @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:2039
-Promise.then
-queueFlush @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1981
-queueJob @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1977
-effect.scheduler @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:5631
-trigger @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:446
-endBatch @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:496
-noTracking @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:978
-push @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:875
-addResponseEvent @ chat.js:53
-wrappedAction @ pinia.js?v=5b3ae460:4789
-store.<computed> @ pinia.js?v=5b3ae460:4476
-handleGeometryStreamEvent @ App.vue:272
-(anonymous) @ App.vue:463
-(anonymous) @ api.js:314
-Promise.then
-sendGeometryChat @ api.js:275
-(anonymous) @ App.vue:456
-Promise.then
-sendGeometry @ App.vue:419
-callWithErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1890
-callWithAsyncErrorHandling @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:1897
-invoker @ vue.runtime.esm-bundler-C6sZGmPl.js?v=5b3ae460:7651Understand this warningAI
-ResponseItem.vue:357 [RI] processEvents: END index=37 total=37
+[Debug] [vite] connecting... (client, line 827)
+[Debug] [vite] connected. (client, line 931)
+[Log] [sendGeometryChat] 请求参数: – Object (api.js, line 256)
+Object
+[Log] [RI] onIframeLoad: events=0 processing=false currentIndex=0 isReplaying=false (ResponseItem.vue, line 77)
+[Log] [RI] onIframeLoad: skip processEvents (events=0 processing=false) (ResponseItem.vue, line 95)
+[Warning] [tpl3] missing function – undefined (about:srcdoc, line 966)
+[Log] [sendGeometryChat] 连接成功，开始接收 SSE (api.js, line 272)
+[Log] [sendGeometryChat] 收到事件: – "command" – Object (api.js, line 305)
+Object
+[Log] [RI] watcher → processEvents, events=1 processing=false index=0 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: START index=0 total=1 iframeReady=true (ResponseItem.vue, line 256)
+[Log] [RI] event[0] type=command action=problem name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "renderProblem" – Proxy (ResponseItem.vue, line 213)
+Proxy
+[Warning] [RI] processEvents: missing event at index=1 (ResponseItem.vue, line 267)
+[Log] [RI] processEvents: END index=1 total=1 (ResponseItem.vue, line 364)
+[Log] [sendGeometryChat] 收到事件: – "command" – Object (api.js, line 305)
+Object
+[Log] [RI] watcher → processEvents, events=2 processing=false index=1 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: START index=1 total=2 iframeReady=true (ResponseItem.vue, line 256)
+[Log] [RI] event[1] type=command action=summary name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showSummary" – Proxy (ResponseItem.vue, line 213)
+Proxy
+[Warning] [RI] processEvents: missing event at index=2 (ResponseItem.vue, line 267)
+[Log] [RI] processEvents: END index=2 total=2 (ResponseItem.vue, line 364)
+> 所选元素
+< <main data-v-7a7a37b1 class="chat-area">…</main>
+[Log] [sendGeometryChat] 收到事件: – "audio" – {type: "audio", content: "我们先来完整读一遍这道题，弄清楚题目在说什么。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 305)
+{type: "audio", content: "我们先来完整读一遍这道题，弄清楚题目在说什么。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 4392, msg_id: "7ee6729e-0e8a-46c1-86c9-850fbce49fdb"}Object
+[Log] [RI] watcher → processEvents, events=3 processing=false index=2 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: START index=2 total=3 iframeReady=true (ResponseItem.vue, line 256)
+[Log] [RI] event[2] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "我们先来完整读一遍这道题，弄清楚题目在说什么。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[2]: hasBytes=true bytesLen=95984 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=95984 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [sendGeometryChat] 收到事件: – "audio" – {type: "audio", content: "题目告诉我们：点 P 是角 AOB 内部的一个点。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 305)
+{type: "audio", content: "题目告诉我们：点 P 是角 AOB 内部的一个点。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 3996, msg_id: "73a3e0f3-0d19-444a-ae52-6f8da5bcc990"}Object
+[Log] [RI] watcher → processEvents, events=4 processing=true index=2 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=2 (ResponseItem.vue, line 253)
+[Log] [sendGeometryChat] 收到事件: – "audio" – {type: "audio", content: "第①步要求：过点 P 画 OB 的垂线，垂足记作点 C。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 305)
+{type: "audio", content: "第①步要求：过点 P 画 OB 的垂线，垂足记作点 C。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 4824, msg_id: "7c06560e-dbbe-4118-b5eb-1d707ace6c63"}Object
+[Log] [RI] watcher → processEvents, events=5 processing=true index=2 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=2 (ResponseItem.vue, line 253)
+[Log] [sendGeometryChat] 收到事件: – "audio" – {type: "audio", content: "第②步要求：过点 P 画 OA 的平行线，这条平行线与 OB 交于点 D；再过点 P 画 OB 的平行线，这条平行线与 OA 交于点 E。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 305)
+{type: "audio", content: "第②步要求：过点 P 画 OA 的平行线，这条平行线与 OB 交于点 D；再过点 P 画 OB 的平行线，这条平行线与 OA 交于点 E。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 12816, msg_id: "41defee2-1112-48a2-b833-0ed8cbf864e0"}Object
+[Log] [RI] watcher → processEvents, events=6 processing=true index=2 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=2 (ResponseItem.vue, line 253)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[3] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "题目告诉我们：点 P 是角 AOB 内部的一个点。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[3]: hasBytes=true bytesLen=87536 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=87536 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [sendGeometryChat] 收到事件: – "audio" – {type: "audio", content: "第③步要求：量出点 P 到直线 OB 的距离，精确到 1 毫米。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 305)
+{type: "audio", content: "第③步要求：量出点 P 到直线 OB 的距离，精确到 1 毫米。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 5004, msg_id: "f477547e-80e9-4c62-9278-ce3962719d93"}Object
+[Log] [RI] watcher → processEvents, events=7 processing=true index=3 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=3 (ResponseItem.vue, line 253)
+[Log] [sendGeometryChat] 收到事件: – "audio" – {type: "audio", content: "最后一个问题：在画好的图形中，如果角 O 等于 n 度，那么角 DPC 等于多少度？用含 n 的代数式表示。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 305)
+{type: "audio", content: "最后一个问题：在画好的图形中，如果角 O 等于 n 度，那么角 DPC 等于多少度？用含 n 的代数式表示。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 8100, msg_id: "fd1df883-465f-48de-a58c-26d4add0b6fd"}Object
+[Log] [RI] watcher → processEvents, events=8 processing=true index=3 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=3 (ResponseItem.vue, line 253)
+[Log] [sendGeometryChat] 收到事件: – "audio" – {type: "audio", content: "我们来整理一下题目给出的条件。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 305)
+{type: "audio", content: "我们来整理一下题目给出的条件。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 2592, msg_id: "2ecca6c7-6d32-47cd-8c86-a06b352f7ca0"}Object
+[Log] [RI] watcher → processEvents, events=9 processing=true index=3 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=3 (ResponseItem.vue, line 253)
+[Log] [sendGeometryChat] 收到事件: – "audio" – {type: "audio", content: "条件一：点 P 在角 AOB 的内部。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 305)
+{type: "audio", content: "条件一：点 P 在角 AOB 的内部。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 3816, msg_id: "cfbf8149-7969-4be8-99ff-175ab7fd8623"}Object
+[Log] [RI] watcher → processEvents, events=10 processing=true index=3 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=3 (ResponseItem.vue, line 253)
+[Log] [sendGeometryChat] 收到事件: – "cv_info" – {type: "cv_info", image_cv_info: {}, msg_id: "86bb89ce-f88c-4848-b364-36ad1fcad250"} (api.js, line 305)
+[Log] [RI] watcher → processEvents, events=11 processing=true index=3 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=3 (ResponseItem.vue, line 253)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[4] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "第①步要求：过点 P 画 OB 的垂线，垂足记作点 C。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[4]: hasBytes=true bytesLen=105200 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=105200 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [sendGeometryChat] 收到事件: – "audio" – {type: "audio", content: "条件二：PC 垂直于 OB，C 是垂足，也就是 PC 是从 P 到 OB 的垂线段。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 305)
+{type: "audio", content: "条件二：PC 垂直于 OB，C 是垂足，也就是 PC 是从 P 到 OB 的垂线段。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 7596, msg_id: "3b52e3e6-9d2d-4497-9a8c-c23e20c2454a"}Object
+[Log] [RI] watcher → processEvents, events=12 processing=true index=4 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=4 (ResponseItem.vue, line 253)
+[Log] [sendGeometryChat] 收到事件: – "audio" – {type: "audio", content: "条件三：PD 平行于 OA，D 在 OB 上。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 305)
+{type: "audio", content: "条件三：PD 平行于 OA，D 在 OB 上。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 3204, msg_id: "00b18987-c615-472c-b0b0-39c371cfd7fd"}Object
+[Log] [RI] watcher → processEvents, events=13 processing=true index=4 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=4 (ResponseItem.vue, line 253)
+[Log] [sendGeometryChat] 收到事件: – "audio" – {type: "audio", content: "条件四：PE 平行于 OB，E 在 OA 上。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 305)
+{type: "audio", content: "条件四：PE 平行于 OB，E 在 OA 上。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 4104, msg_id: "d78cd473-f869-449d-8315-0ab37779306b"}Object
+[Log] [RI] watcher → processEvents, events=14 processing=true index=4 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=4 (ResponseItem.vue, line 253)
+[Log] [sendGeometryChat] 收到事件: – "audio" – {type: "audio", content: "条件五：角 O 的度数是 n 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 305)
+{type: "audio", content: "条件五：角 O 的度数是 n 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 3204, msg_id: "11827726-8fd7-46b3-ae4e-153fd4c7a4cc"}Object
+[Log] [RI] watcher → processEvents, events=15 processing=true index=4 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=4 (ResponseItem.vue, line 253)
+[Log] [sendGeometryChat] 收到事件: – "audio" – {type: "audio", content: "题目要求我们求的是：角 DPC 的度数，用含 n 的式子表示。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 305)
+{type: "audio", content: "题目要求我们求的是：角 DPC 的度数，用含 n 的式子表示。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 5436, msg_id: "d7cfd380-c8aa-4c2d-98c4-51ea5a59d1a1"}Object
+[Log] [RI] watcher → processEvents, events=16 processing=true index=4 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=4 (ResponseItem.vue, line 253)
+[Log] [sendGeometryChat] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_2", content: "认识图形：垂线 PC 与平行线 PD"}, …} (api.js, line 305)
+{type: "command", action: "summary", params: {section_id: "seg_2", content: "认识图形：垂线 PC 与平行线 PD"}, msg_id: "da8d60a0-61e7-406f-b251-a2ddd0c3ae66"}Object
+[Log] [RI] watcher → processEvents, events=17 processing=true index=4 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=4 (ResponseItem.vue, line 253)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[5] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "第②步要求：过点 P 画 OA 的平行线，这条平行线与 OB 交于点 D；再过点 P 画 OB 的平行线，这条平行线与 OA 交于点 E。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[5]: hasBytes=true bytesLen=275696 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=275696 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [sendGeometryChat] 收到事件: – "audio" – {type: "audio", content: "好，现在我们结合图形来看。先来认识角 AOB。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 305)
+{type: "audio", content: "好，现在我们结合图形来看。先来认识角 AOB。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 4824, msg_id: "4e2aec30-5159-4c1f-bf45-213b97654b9d"}Object
+[Log] [RI] watcher → processEvents, events=18 processing=true index=5 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=5 (ResponseItem.vue, line 253)
+[Log] [sendGeometryChat] 收到事件: – "audio" – {type: "audio", content: "O 是顶点，OA 和 OB 是两条射线，点 P 就在这个角的内部。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 305)
+{type: "audio", content: "O 是顶点，OA 和 OB 是两条射线，点 P 就在这个角的内部。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 5508, msg_id: "11d4f96e-959b-425f-b09a-52a57d318d99"}Object
+[Log] [RI] watcher → processEvents, events=19 processing=true index=5 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=5 (ResponseItem.vue, line 253)
+[Log] [sendGeometryChat] 收到事件: – "audio" – {type: "audio", content: "第①步，我们过点 P 向 OB 作垂线，垂足是 C。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 305)
+{type: "audio", content: "第①步，我们过点 P 向 OB 作垂线，垂足是 C。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 4680, msg_id: "46eb9ff0-c8aa-490e-987f-e838bef0034f"}Object
+[Log] [RI] watcher → processEvents, events=20 processing=true index=5 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=5 (ResponseItem.vue, line 253)
+[Log] [sendGeometryChat] 取消请求 (api.js, line 323)
+[Log] [RI] processEvents: END index=5 total=20 (ResponseItem.vue, line 364)
+[Log] [sendGeometryChat] 请求已取消 (api.js, line 315)
+[Log] [sendGeometryVoiceFollowup] 请求参数: – {session_id: "geometry_session_1781150761122_5icp0y", sid: "sid_1781150788675_1gzhzzx7", tid: "b0eea7efa0a13a783e84465055f70439", …} (api.js, line 331)
+{session_id: "geometry_session_1781150761122_5icp0y", sid: "sid_1781150788675_1gzhzzx7", tid: "b0eea7efa0a13a783e84465055f70439", user_profile: "learning.math.exercise: 遇到综合题容易一下子跳到结论，需要更清楚的中间步骤。…nce: 讲解时多用“我们先……再……最后……”的结构，关键推导不要跳步，每完成一步给出轻量提醒。", user_request: "我讲一下正弦定理。", …}Object
+[Log] [RI] watcher → processEvents, events=6 processing=false index=5 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: START index=5 total=6 iframeReady=true (ResponseItem.vue, line 256)
+[Log] [RI] event[5] type=user_request action= name= (ResponseItem.vue, line 270)
+[Warning] [RI] processEvents: missing event at index=6 (ResponseItem.vue, line 267)
+[Log] [RI] processEvents: END index=6 total=6 (ResponseItem.vue, line 364)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "problem", params: {content: "如图，点$P$是$\\angle AOB$内一点. 按下列要求画出图形. ①过点$P$画$OB$的垂线…gle O=n^{\\circ}$，则$\\angle DPC=$ 1 度（用含$n$的代数式表示)。"}, …} (api.js, line 379)
+{type: "command", action: "problem", params: {content: "如图，点$P$是$\\angle AOB$内一点. 按下列要求画出图形. ①过点$P$画$OB$的垂线…gle O=n^{\\circ}$，则$\\angle DPC=$ 1 度（用含$n$的代数式表示)。"}, msg_id: "d302a2df-d17d-46c5-a3cf-28c1ed1a84ef", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents from await-stream, events=7 (ResponseItem.vue, line 391)
+[Log] [RI] processEvents: START index=6 total=7 iframeReady=true (ResponseItem.vue, line 256)
+[Log] [RI] event[6] type=command action=problem name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "renderProblem" – Proxy {content: "如图，点$P$是$\\angle AOB$内一点. 按下列要求画出图形. ①过点$P$画$OB$的垂线…gle O=n^{\\circ}$，则$\\angle DPC=$ 1 度（用含$n$的代数式表示)。"} (ResponseItem.vue, line 213)
+Proxy {content: "如图，点$P$是$\\angle AOB$内一点. 按下列要求画出图形. ①过点$P$画$OB$的垂线…gle O=n^{\\circ}$，则$\\angle DPC=$ 1 度（用含$n$的代数式表示)。"}Proxy
+[Warning] [RI] processEvents: missing event at index=7 (ResponseItem.vue, line 267)
+[Log] [RI] processEvents: END index=7 total=7 (ResponseItem.vue, line 364)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_2", content: "回应用户问题并引回题目"}, …} (api.js, line 379)
+{type: "command", action: "summary", params: {section_id: "seg_2", content: "回应用户问题并引回题目"}, msg_id: "4f797047-b50e-43c6-a10c-134dea0f7af3", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=8 processing=false index=7 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: START index=7 total=8 iframeReady=true (ResponseItem.vue, line 256)
+[Log] [RI] event[7] type=command action=summary name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showSummary" – Proxy {section_id: "seg_2", content: "回应用户问题并引回题目"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_2", content: "回应用户问题并引回题目"}Proxy
+[Warning] [RI] processEvents: missing event at index=8 (ResponseItem.vue, line 267)
+[Log] [RI] processEvents: END index=8 total=8 (ResponseItem.vue, line 364)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "你提到了正弦定理，这是个很重要的知识点，不过我们今天这道题用不到它哦。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "你提到了正弦定理，这是个很重要的知识点，不过我们今天这道题用不到它哦。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 5904, msg_id: "4f83f293-541f-4984-aff1-71317494920f", …}Object
+[Log] [RI] watcher → processEvents, events=9 processing=false index=8 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: START index=8 total=9 iframeReady=true (ResponseItem.vue, line 256)
+[Log] [RI] event[8] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "你提到了正弦定理，这是个很重要的知识点，不过我们今天这道题用不到它哦。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[8]: hasBytes=true bytesLen=128240 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=128240 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "这道题主要用的是平行线的性质和垂线的定义，比正弦定理要更基础一些。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "这道题主要用的是平行线的性质和垂线的定义，比正弦定理要更基础一些。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 6912, msg_id: "97f0ae63-a19a-4976-9db7-de3950ed97e3", …}Object
+[Log] [RI] watcher → processEvents, events=10 processing=true index=8 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=8 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "我们先把这道作图题搞清楚，正弦定理以后遇到合适的题目再一起讲，好不好？", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "我们先把这道作图题搞清楚，正弦定理以后遇到合适的题目再一起讲，好不好？", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 6516, msg_id: "f4b253bc-324f-42e5-abc9-99912b83dc81", …}Object
+[Log] [RI] watcher → processEvents, events=11 processing=true index=8 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=8 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "好，我们回到题目，继续把剩下的条件读完。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "好，我们回到题目，继续把剩下的条件读完。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 3636, msg_id: "2ac498ce-ac57-4c46-9d47-fdc4214a712c", …}Object
+[Log] [RI] watcher → processEvents, events=12 processing=true index=8 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=8 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_3", content: "继续读题：第②③步要求和问题"}, …} (api.js, line 379)
+{type: "command", action: "summary", params: {section_id: "seg_3", content: "继续读题：第②③步要求和问题"}, msg_id: "04be0b34-bd45-4d29-a2bb-a06df3ace72a", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=13 processing=true index=8 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=8 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "第②步要求：过点 P 画 OA 的平行线，交 OB 于点 D；再过点 P 画 OB 的平行线，交 OA 于点 E。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "第②步要求：过点 P 画 OA 的平行线，交 OB 于点 D；再过点 P 画 OB 的平行线，交 OA 于点 E。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 12420, msg_id: "0e1e3ab4-d5c1-473c-9aee-fd83ec7caee1", …}Object
+[Log] [RI] watcher → processEvents, events=14 processing=true index=8 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=8 (ResponseItem.vue, line 253)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[9] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "这道题主要用的是平行线的性质和垂线的定义，比正弦定理要更基础一些。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[9]: hasBytes=true bytesLen=149744 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=149744 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "第③步要求：量出点 P 到直线 OB 的距离，精确到 1 毫米。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "第③步要求：量出点 P 到直线 OB 的距离，精确到 1 毫米。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 4896, msg_id: "88e1f79b-cdc4-425b-bc11-5126ec70d0ef", …}Object
+[Log] [RI] watcher → processEvents, events=15 processing=true index=9 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=9 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "最后，题目还问了一个角度计算问题：在画好的图形中，如果角 O 等于 n 度，那么角 DPC 等于多少度？用含 n 的式子表示。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "最后，题目还问了一个角度计算问题：在画好的图形中，如果角 O 等于 n 度，那么角 DPC 等于多少度？用含 n 的式子表示。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 10944, msg_id: "d7d64911-6bb4-408b-86a1-e5c116e9f3da", …}Object
+[Log] [RI] watcher → processEvents, events=16 processing=true index=9 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=9 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_3", content: "P 在 ∠AOB 内部"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_3", content: "P 在 ∠AOB 内部"}, msg_id: "267f9d55-652f-4b8b-9273-94b2eda5b730", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=17 processing=true index=9 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=9 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "我们来梳理一下条件。第一，P 是角 AOB 内部的点，这是整个图形的出发点。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "我们来梳理一下条件。第一，P 是角 AOB 内部的点，这是整个图形的出发点。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 6624, msg_id: "6dbf0b4b-5534-42cc-92a9-1f04d499e9de", …}Object
+[Log] [RI] watcher → processEvents, events=18 processing=true index=9 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=9 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_3", content: "PC ⊥ OB，C 为垂足"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_3", content: "PC ⊥ OB，C 为垂足"}, msg_id: "dad9d44a-e11c-41f8-88b0-3085fbf1d0e0", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=19 processing=true index=9 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=9 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "第二，PC 垂直于 OB，C 是垂足，所以 PC 就是点 P 到直线 OB 的距离。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "第二，PC 垂直于 OB，C 是垂足，所以 PC 就是点 P 到直线 OB 的距离。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 7812, msg_id: "4506dc32-2a28-4ad1-8f1d-d485d0daf694", …}Object
+[Log] [RI] watcher → processEvents, events=20 processing=true index=9 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=9 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_3", content: "PD ∥ OA（D 在 OB 上）；PE ∥ OB（E 在 OA 上）"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_3", content: "PD ∥ OA（D 在 OB 上）；PE ∥ OB（E 在 OA 上）"}, msg_id: "c1224702-58e7-41e8-b3b8-29a9005033fc", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=21 processing=true index=9 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=9 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "第三，PD 平行于 OA，D 在 OB 上；PE 平行于 OB，E 在 OA 上。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "第三，PD 平行于 OA，D 在 OB 上；PE 平行于 OB，E 在 OA 上。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 7128, msg_id: "c1081fe0-97b9-49c7-af5e-c94e91a699fb", …}Object
+[Log] [RI] watcher → processEvents, events=22 processing=true index=9 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=9 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_3", content: "求 ∠DPC = ？（用 n 表示）"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_3", content: "求 ∠DPC = ？（用 n 表示）"}, msg_id: "1d463955-d36c-4ae6-8e11-3b46b6e371f4", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=23 processing=true index=9 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=9 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "要求的是：用 n 表示角 DPC 的度数。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "要求的是：用 n 表示角 DPC 的度数。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 2988, msg_id: "b26063fa-acf9-4235-ac20-a4438c2d8212", …}Object
+[Log] [RI] watcher → processEvents, events=24 processing=true index=9 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=9 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_4", content: "展示作图结果：画 PC 垂直 OB"}, …} (api.js, line 379)
+{type: "command", action: "summary", params: {section_id: "seg_4", content: "展示作图结果：画 PC 垂直 OB"}, msg_id: "b62b2924-be1d-4238-85d7-1d8198bbc535", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=25 processing=true index=9 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=9 (ResponseItem.vue, line 253)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[10] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "我们先把这道作图题搞清楚，正弦定理以后遇到合适的题目再一起讲，好不好？"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[10]: hasBytes=true bytesLen=141296 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=141296 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "好，现在我们结合图形来看。先来看第①步的作图结果。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "好，现在我们结合图形来看。先来看第①步的作图结果。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 4536, msg_id: "c4fa40e0-2cda-414d-9827-a3fe2577a479", …}Object
+[Log] [RI] watcher → processEvents, events=26 processing=true index=10 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=10 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_5", content: "展示作图结果：画 PD 平行 OA，PE 平行 OB"}, …} (api.js, line 379)
+{type: "command", action: "summary", params: {section_id: "seg_5", content: "展示作图结果：画 PD 平行 OA，PE 平行 OB"}, msg_id: "0627d693-7d5e-4cc2-8f39-027704c5cdd6", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=27 processing=true index=10 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=10 (ResponseItem.vue, line 253)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[11] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "好，我们回到题目，继续把剩下的条件读完。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[11]: hasBytes=true bytesLen=79856 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=79856 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "cv_info" – {type: "cv_info", image_cv_info: Object, msg_id: "40445ac8-4157-428c-af3e-a134fc2ad2ac", …} (api.js, line 379)
+{type: "cv_info", image_cv_info: Object, msg_id: "40445ac8-4157-428c-af3e-a134fc2ad2ac", session_id: "geometry_session_1781150761122_5icp0y", sid: "sid_1781150788675_1gzhzzx7"}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "showConstruction", …} (api.js, line 379)
+{type: "command", action: "call", name: "showConstruction", params: Object, msg_id: "f9176d14-eda3-41a1-a94a-dc164ec83df3", …}Object
+[Log] [RI] watcher → processEvents, events=29 processing=true index=11 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=11 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "过点 P 向 OB 作垂线，垂足就是点 C，线段 PC 就画在这里。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "过点 P 向 OB 作垂线，垂足就是点 C，线段 PC 就画在这里。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 7524, msg_id: "85e392b0-71cc-4c76-8a94-2438ce05742d", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_4", content: "PC ⊥ OB ⟹ ∠PCD = 90°"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_4", content: "PC ⊥ OB ⟹ ∠PCD = 90°"}, msg_id: "1b4b9786-8d75-4aca-98e5-ebf913707134", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "markObjectRelation", …} (api.js, line 379)
+{type: "command", action: "call", name: "markObjectRelation", params: Object, msg_id: "9d4f5655-153d-498a-bb96-530bf10efb02", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "PC 垂直于 OB，所以角 PCD 就是直角，等于 90 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "PC 垂直于 OB，所以角 PCD 就是直角，等于 90 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 5220, msg_id: "456f14f7-d62b-4720-997a-4010453498a1", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "showConstruction", …} (api.js, line 379)
+{type: "command", action: "call", name: "showConstruction", params: Object, msg_id: "06c1a665-f30b-42cf-8916-8eb6f153cb43", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "接着看第②步，过点 P 画 OA 的平行线，交 OB 于点 D。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "接着看第②步，过点 P 画 OA 的平行线，交 OB 于点 D。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 4824, msg_id: "ef82fa7e-550a-4209-96e6-bfa09bb86c34", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "showConstruction", …} (api.js, line 379)
+{type: "command", action: "call", name: "showConstruction", params: Object, msg_id: "dcbbe542-1946-4dde-8382-00b8018e045d", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "再过点 P 画 OB 的平行线，交 OA 于点 E。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "再过点 P 画 OB 的平行线，交 OA 于点 E。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 5220, msg_id: "7cd0db48-e950-4553-aa77-8941fc85453c", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "focusShapeParts", …} (api.js, line 379)
+{type: "command", action: "call", name: "focusShapeParts", params: {kind: "points", targetId: ["point_C", "point_D", "point_E"]}, msg_id: "320aeaa6-5e7c-48d6-aba2-06ef52767367", …}Object
+[Log] [RI] watcher → processEvents, events=38 processing=true index=11 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=11 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "这样，图形里就有了 C、D、E 三个新点，以及 PC、PD、PE 三条辅助线段。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "这样，图形里就有了 C、D、E 三个新点，以及 PC、PD、PE 三条辅助线段。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 8784, msg_id: "161aa249-48f8-45d5-8c47-0a089c68ed9d", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_6", content: "第③步：点 P 到直线 OB 的距离"}, …} (api.js, line 379)
+{type: "command", action: "summary", params: {section_id: "seg_6", content: "第③步：点 P 到直线 OB 的距离"}, msg_id: "ca93464d-1b1e-4a24-a053-0ffc5ada67ba", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=40 processing=true index=11 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=11 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "focusShapeParts", …} (api.js, line 379)
+{type: "command", action: "call", name: "focusShapeParts", params: {kind: "segments", targetId: "segment_PC"}, msg_id: "f3ba5a87-4679-4f26-a7b4-ff28965d14bc", …}Object
+[Log] [RI] watcher → processEvents, events=41 processing=true index=11 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=11 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "第③步，点 P 到直线 OB 的距离，就是垂线段 PC 的长度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "第③步，点 P 到直线 OB 的距离，就是垂线段 PC 的长度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 5904, msg_id: "7f867cf3-78da-406b-ad2e-eca85539d003", …}Object
+[Log] [RI] watcher → processEvents, events=42 processing=true index=11 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=11 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_6", content: "点到直线的距离 = 垂线段长度"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_6", content: "点到直线的距离 = 垂线段长度"}, msg_id: "3be8c641-ec5e-473c-957c-d0a79dcef0f9", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=43 processing=true index=11 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=11 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "为什么是 PC 而不是其他线段呢？因为点到直线的距离，定义就是从这个点向直线作垂线，垂线段的长度才是距离。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "为什么是 PC 而不是其他线段呢？因为点到直线的距离，定义就是从这个点向直线作垂线，垂线段的长度才是距离。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 11016, msg_id: "2847a364-643d-4d84-a38f-3b832f689c51", …}Object
+[Log] [RI] watcher → processEvents, events=44 processing=true index=11 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=11 (ResponseItem.vue, line 253)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[12] type=command action=summary name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showSummary" – Proxy {section_id: "seg_3", content: "继续读题：第②③步要求和问题"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_3", content: "继续读题：第②③步要求和问题"}Proxy
+[Log] [RI] event[13] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "第②步要求：过点 P 画 OA 的平行线，交 OB 于点 D；再过点 P 画 OB 的平行线，交 OA 于点 E。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[13]: hasBytes=true bytesLen=267248 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=267248 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_6", content: "PC ≈ 12mm"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_6", content: "PC ≈ 12mm"}, msg_id: "14374c30-d8ba-4536-8f31-eca0cfc3bddb", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "showObjectLabel", …} (api.js, line 379)
+{type: "command", action: "call", name: "showObjectLabel", params: {label: ["≈ 12mm"], targetId: "segment_PC"}, msg_id: "99d21df7-6ffd-4f82-9c68-abf6c7a089b2", …}Object
+[Log] [RI] watcher → processEvents, events=46 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "题目告诉我们实际测量结果约为 12 毫米，精确到 1 毫米。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "题目告诉我们实际测量结果约为 12 毫米，精确到 1 毫米。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 4824, msg_id: "80a9f441-a2a1-422d-92e7-20f7e3f4a642", …}Object
+[Log] [RI] watcher → processEvents, events=47 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_7", content: "角度计算：利用平行线性质得 ∠CDP = n°"}, …} (api.js, line 379)
+{type: "command", action: "summary", params: {section_id: "seg_7", content: "角度计算：利用平行线性质得 ∠CDP = n°"}, msg_id: "72fb2333-4eb7-494f-b6ee-3196e784b96a", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=48 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "focusShapeParts", …} (api.js, line 379)
+{type: "command", action: "call", name: "focusShapeParts", params: {kind: "segments", targetId: ["segment_PD", "segment_OA"]}, msg_id: "4d5d857c-cfdd-4a98-86dd-2d52b25c5c7d", …}Object
+[Log] [RI] watcher → processEvents, events=49 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "好，现在来解决角度计算这个问题。我们先聚焦 PD 和 OA 这对平行线。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "好，现在来解决角度计算这个问题。我们先聚焦 PD 和 OA 这对平行线。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 6192, msg_id: "105ef0e0-cd51-4d78-9329-801f023347eb", …}Object
+[Log] [RI] watcher → processEvents, events=50 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "focusShapeParts", …} (api.js, line 379)
+{type: "command", action: "call", name: "focusShapeParts", params: {kind: "segments", targetId: "segment_OB"}, msg_id: "d608a5d7-f34a-44bd-b438-b74fb8a7e3c4", …}Object
+[Log] [RI] watcher → processEvents, events=51 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "PD 平行于 OA，而 OB 是它们的截线。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "PD 平行于 OA，而 OB 是它们的截线。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 3996, msg_id: "3d8e5a87-43d6-4709-89b9-1f838c44c4ba", …}Object
+[Log] [RI] watcher → processEvents, events=52 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_7", content: "PD ∥ OA，OB 为截线 ⟹ ∠CDP = ∠O = n°（同位角相等）"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_7", content: "PD ∥ OA，OB 为截线 ⟹ ∠CDP = ∠O = n°（同位角相等）"}, msg_id: "54f99ae0-0e69-43da-b89c-1f542fc080e0", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=53 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "markObjectRelation", …} (api.js, line 379)
+{type: "command", action: "call", name: "markObjectRelation", params: Object, msg_id: "9f97ad71-1a3c-4b40-b870-def4aade2b4d", …}Object
+[Log] [RI] watcher → processEvents, events=54 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "根据平行线的性质，同位角相等，所以角 CDP 等于角 O，也就是 n 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "根据平行线的性质，同位角相等，所以角 CDP 等于角 O，也就是 n 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 6192, msg_id: "11448604-40d2-443f-9c41-3f1e89640b9c", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_8", content: "角度计算：利用垂直条件得 ∠PCD = 90°，推出 ∠DPC"}, …} (api.js, line 379)
+{type: "command", action: "summary", params: {section_id: "seg_8", content: "角度计算：利用垂直条件得 ∠PCD = 90°，推出 ∠DPC"}, msg_id: "33446595-8ba7-4648-a656-56ffa18e9bd8", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=56 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "focusShapeParts", …} (api.js, line 379)
+{type: "command", action: "call", name: "focusShapeParts", params: {kind: "angles", targetId: "angle_PCD"}, msg_id: "fa6ea02d-e30d-49a9-b38f-0f2d1a708a2d", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "我们再来看角 PCD。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "我们再来看角 PCD。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 1404, msg_id: "d416b919-265a-4fb4-8da9-e712e4024606", …}Object
+[Log] [RI] watcher → processEvents, events=58 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_8", content: "PC ⊥ OB ⟹ ∠PCD = 90°"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_8", content: "PC ⊥ OB ⟹ ∠PCD = 90°"}, msg_id: "010bbb4a-8b97-4855-8eab-0982053e9680", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=59 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "因为 PC 垂直于 OB，所以角 PCD 就是直角，等于 90 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "因为 PC 垂直于 OB，所以角 PCD 就是直角，等于 90 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 4680, msg_id: "aa3fa86a-727e-4dc9-a5b3-0f36569a7076", …}Object
+[Log] [RI] watcher → processEvents, events=60 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "focusShapeParts", …} (api.js, line 379)
+{type: "command", action: "call", name: "focusShapeParts", params: {kind: "regions", targetId: "triangle_DPC"}, msg_id: "98bef891-a9a8-454c-a34e-b8f67bab0215", …}Object
+[Log] [RI] watcher → processEvents, events=61 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "现在我们把目光移到三角形 DPC 上。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "现在我们把目光移到三角形 DPC 上。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 2988, msg_id: "14679c40-66b3-43e2-a1b2-9115ec80ce14", …}Object
+[Log] [RI] watcher → processEvents, events=62 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_8", content: "∠DPC + ∠CDP + ∠PCD = 180°"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_8", content: "∠DPC + ∠CDP + ∠PCD = 180°"}, msg_id: "eae2162a-8b05-4639-acb9-f0ffa82c626d", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=63 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "三角形三个内角之和是 180 度，其中角 PCD 已经是 90 度了。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "三角形三个内角之和是 180 度，其中角 PCD 已经是 90 度了。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 5724, msg_id: "cd3d8164-8983-4afb-8a6c-1f59ba45694a", …}Object
+[Log] [RI] watcher → processEvents, events=64 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_8", content: "∠DPC + ∠CDP = 90°"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_8", content: "∠DPC + ∠CDP = 90°"}, msg_id: "39864e6d-85b4-435c-9b7a-8ce228ecac3e", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=65 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "所以角 DPC 加上角 CDP 恰好等于 90 度，这两个角互余。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "所以角 DPC 加上角 CDP 恰好等于 90 度，这两个角互余。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 4392, msg_id: "825fea0d-154c-4008-b546-b59b9fbadd5a", …}Object
+[Log] [RI] watcher → processEvents, events=66 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_8", content: "∠DPC = 90° − ∠CDP = 90° − n°"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_8", content: "∠DPC = 90° − ∠CDP = 90° − n°"}, msg_id: "64caef0c-45d6-4527-8c4d-e09611ebc75f", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=67 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "focusShapeParts", …} (api.js, line 379)
+{type: "command", action: "call", name: "focusShapeParts", params: {kind: "angles", targetId: "angle_DPC"}, msg_id: "d7e238b8-64de-49e7-8072-f35e41aedfa6", …}Object
+[Log] [RI] watcher → processEvents, events=68 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "把角 CDP 等于 n 度代进去，就得到角 DPC 等于 90 减 n 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "把角 CDP 等于 n 度代进去，就得到角 DPC 等于 90 减 n 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 6192, msg_id: "0a3ef7f9-d8e6-43aa-96f4-18364d6f9d0e", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_9", content: "总结全题"}, …} (api.js, line 379)
+{type: "command", action: "summary", params: {section_id: "seg_9", content: "总结全题"}, msg_id: "7e76cceb-29f5-4dc0-9df9-3c01fbe1349c", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=70 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "updateBoard", …} (api.js, line 379)
+{type: "command", action: "call", name: "updateBoard", params: {section_id: "summary", title: "解题总结", content: "① PC ⊥ OB，C 为垂足（点到直线距离）↵② PD ∥ OA（D 在 OB 上），PE ∥ O…（同位角，PD ∥ OA）↵∠PCD = 90°（PC ⊥ OB）↵∠DPC = 90° − n°"}, msg_id: "cde6214e-fca0-464a-83de-e40f32fc5da8", …}Object
+[Log] [RI] watcher → processEvents, events=71 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "我们来回顾一下整道题的思路。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "我们来回顾一下整道题的思路。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 2088, msg_id: "de7c26e7-752d-4bb0-b80f-a60e5bcc9f55", …}Object
+[Log] [RI] watcher → processEvents, events=72 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "作图部分：先过 P 作 OB 的垂线得到 C，再作平行线得到 D 和 E，点 P 到 OB 的距离就是 PC 的长，约 12 毫米。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "作图部分：先过 P 作 OB 的垂线得到 C，再作平行线得到 D 和 E，点 P 到 OB 的距离就是 PC 的长，约 12 毫米。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 8928, msg_id: "033c5080-b8e2-4cb7-bdb7-d8437f9992c6", …}Object
+[Log] [RI] watcher → processEvents, events=73 processing=true index=13 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=13 (ResponseItem.vue, line 253)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[14] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "第③步要求：量出点 P 到直线 OB 的距离，精确到 1 毫米。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[14]: hasBytes=true bytesLen=106736 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=106736 (ResponseItem.vue, line 120)
+[Log] [sendGeometryVoiceFollowup] 取消请求 (api.js, line 397)
+[Log] [RI] processEvents: END index=14 total=73 (ResponseItem.vue, line 364)
+[Log] [sendGeometryVoiceFollowup] 请求已取消 (api.js, line 389)
+[Warning] [RI] playAudio: play() rejected: – "AbortError" – "The operation was aborted." (ResponseItem.vue, line 143)
+[Log] [sendGeometryVoiceFollowup] 请求参数: – {session_id: "geometry_session_1781150761122_5icp0y", sid: "sid_1781150835955_32tba587", tid: "b0eea7efa0a13a783e84465055f70439", …} (api.js, line 331)
+{session_id: "geometry_session_1781150761122_5icp0y", sid: "sid_1781150835955_32tba587", tid: "b0eea7efa0a13a783e84465055f70439", user_profile: "learning.math.exercise: 遇到综合题容易一下子跳到结论，需要更清楚的中间步骤。…nce: 讲解时多用“我们先……再……最后……”的结构，关键推导不要跳步，每完成一步给出轻量提醒。", user_request: "你再讲一下那个勾股定理。", …}Object
+[Log] [RI] watcher → processEvents, events=15 processing=false index=14 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: START index=14 total=15 iframeReady=true (ResponseItem.vue, line 256)
+[Log] [RI] event[14] type=user_request action= name= (ResponseItem.vue, line 270)
+[Warning] [RI] processEvents: missing event at index=15 (ResponseItem.vue, line 267)
+[Log] [RI] processEvents: END index=15 total=15 (ResponseItem.vue, line 364)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "problem", params: {content: "如图，点$P$是$\\angle AOB$内一点. 按下列要求画出图形. ①过点$P$画$OB$的垂线…gle O=n^{\\circ}$，则$\\angle DPC=$ 1 度（用含$n$的代数式表示)。"}, …} (api.js, line 379)
+{type: "command", action: "problem", params: {content: "如图，点$P$是$\\angle AOB$内一点. 按下列要求画出图形. ①过点$P$画$OB$的垂线…gle O=n^{\\circ}$，则$\\angle DPC=$ 1 度（用含$n$的代数式表示)。"}, msg_id: "022c87e8-f3f4-4c34-9b7c-f91f3df4336f", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents from await-stream, events=16 (ResponseItem.vue, line 391)
+[Log] [RI] processEvents: START index=15 total=16 iframeReady=true (ResponseItem.vue, line 256)
+[Log] [RI] event[15] type=command action=problem name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "renderProblem" – Proxy {content: "如图，点$P$是$\\angle AOB$内一点. 按下列要求画出图形. ①过点$P$画$OB$的垂线…gle O=n^{\\circ}$，则$\\angle DPC=$ 1 度（用含$n$的代数式表示)。"} (ResponseItem.vue, line 213)
+Proxy {content: "如图，点$P$是$\\angle AOB$内一点. 按下列要求画出图形. ①过点$P$画$OB$的垂线…gle O=n^{\\circ}$，则$\\angle DPC=$ 1 度（用含$n$的代数式表示)。"}Proxy
+[Warning] [RI] processEvents: missing event at index=16 (ResponseItem.vue, line 267)
+[Log] [RI] processEvents: END index=16 total=16 (ResponseItem.vue, line 364)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_4", content: "回应用户问题并引回题目"}, …} (api.js, line 379)
+{type: "command", action: "summary", params: {section_id: "seg_4", content: "回应用户问题并引回题目"}, msg_id: "823aeeb2-e755-4bf9-a466-b6e99da83322", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=17 processing=false index=16 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: START index=16 total=17 iframeReady=true (ResponseItem.vue, line 256)
+[Log] [RI] event[16] type=command action=summary name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showSummary" – Proxy {section_id: "seg_4", content: "回应用户问题并引回题目"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_4", content: "回应用户问题并引回题目"}Proxy
+[Warning] [RI] processEvents: missing event at index=17 (ResponseItem.vue, line 267)
+[Log] [RI] processEvents: END index=17 total=17 (ResponseItem.vue, line 364)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "你问到了勾股定理，这也是个很重要的定理，不过这道题同样用不到它哦。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "你问到了勾股定理，这也是个很重要的定理，不过这道题同样用不到它哦。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 5796, msg_id: "53844a85-93a2-4148-809c-f3d69cb5574a", …}Object
+[Log] [RI] watcher → processEvents, events=18 processing=false index=17 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: START index=17 total=18 iframeReady=true (ResponseItem.vue, line 256)
+[Log] [RI] event[17] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "你问到了勾股定理，这也是个很重要的定理，不过这道题同样用不到它哦。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[17]: hasBytes=true bytesLen=125936 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=125936 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_4", content: "勾股定理：$a^2 + b^2 = c^2$（$c$ 为斜边）"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_4", content: "勾股定理：$a^2 + b^2 = c^2$（$c$ 为斜边）"}, msg_id: "83e49a61-08e5-446c-8a07-e3bbea57f15f", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=19 processing=true index=17 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=17 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "勾股定理说的是：直角三角形中，两条直角边的平方和等于斜边的平方。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "勾股定理说的是：直角三角形中，两条直角边的平方和等于斜边的平方。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 6012, msg_id: "5d67f1da-aa2c-46d2-a521-38789364a622", …}Object
+[Log] [RI] watcher → processEvents, events=20 processing=true index=17 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=17 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "我们这道题要用的是平行线的同位角相等，以及垂线产生的直角，这两个性质就够了。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "我们这道题要用的是平行线的同位角相等，以及垂线产生的直角，这两个性质就够了。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 7812, msg_id: "57d301b4-7cc0-43f7-ba12-060d7cec555c", …}Object
+[Log] [RI] watcher → processEvents, events=21 processing=true index=17 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=17 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "好，我们回到题目，继续把剩下的条件读完，然后一步步画图和计算。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "好，我们回到题目，继续把剩下的条件读完，然后一步步画图和计算。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 5508, msg_id: "0515b434-773d-4b3e-8b60-267a26317bed", …}Object
+[Log] [RI] watcher → processEvents, events=22 processing=true index=17 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=17 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_5", content: "继续读题：第③步要求和问题"}, …} (api.js, line 379)
+{type: "command", action: "summary", params: {section_id: "seg_5", content: "继续读题：第③步要求和问题"}, msg_id: "4c381b08-61cd-44fe-b304-2da35ad43123", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=23 processing=true index=17 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=17 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "第③步要求：量出点 P 到直线 OB 的距离，精确到 1 毫米。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "第③步要求：量出点 P 到直线 OB 的距离，精确到 1 毫米。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 4896, msg_id: "83666d8b-7dd9-4b03-a0cd-3dd2953ba735", …}Object
+[Log] [RI] watcher → processEvents, events=24 processing=true index=17 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=17 (ResponseItem.vue, line 253)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[18] type=command action=bullet name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "addBullet" – Proxy {section_id: "seg_4", content: "勾股定理：$a^2 + b^2 = c^2$（$c$ 为斜边）"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_4", content: "勾股定理：$a^2 + b^2 = c^2$（$c$ 为斜边）"}Proxy
+[Log] [RI] event[19] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "勾股定理说的是：直角三角形中，两条直角边的平方和等于斜边的平方。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[19]: hasBytes=true bytesLen=130544 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=130544 (ResponseItem.vue, line 120)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_5", content: "已知：$\\angle O = n°$，求 $\\angle DPC = ?$"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_5", content: "已知：$\\angle O = n°$，求 $\\angle DPC = ?$"}, msg_id: "49e9ff0a-a3a9-4d63-abf0-ba85336727a2", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=25 processing=true index=19 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=19 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "题目还问：如果角 O 等于 n 度，那么角 DPC 等于多少度？用含 n 的代数式表示。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "题目还问：如果角 O 等于 n 度，那么角 DPC 等于多少度？用含 n 的代数式表示。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 7128, msg_id: "8c1e2280-8f78-451f-af9b-799923f8987e", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_6", content: "作图第①步：过 P 作 OB 的垂线，垂足为 C"}, …} (api.js, line 379)
+{type: "command", action: "summary", params: {section_id: "seg_6", content: "作图第①步：过 P 作 OB 的垂线，垂足为 C"}, msg_id: "d9754d7f-4401-4e4c-8fe6-3a8e96d7ad78", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=27 processing=true index=19 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=19 (ResponseItem.vue, line 253)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_7", content: "作图第②步：过 P 作 OA 的平行线交 OB 于 D，作 OB 的平行线交 OA 于 E"}, …} (api.js, line 379)
+{type: "command", action: "summary", params: {section_id: "seg_7", content: "作图第②步：过 P 作 OA 的平行线交 OB 于 D，作 OB 的平行线交 OA 于 E"}, msg_id: "0fb792d1-1571-42cc-bb0d-ad4f4ea4ffcb", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=28 processing=true index=19 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=19 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "cv_info" – {type: "cv_info", image_cv_info: Object, msg_id: "fd771e74-d42a-4172-829f-5b05eb980eaa", …} (api.js, line 379)
+{type: "cv_info", image_cv_info: Object, msg_id: "fd771e74-d42a-4172-829f-5b05eb980eaa", session_id: "geometry_session_1781150761122_5icp0y", sid: "sid_1781150835955_32tba587"}Object
+[Log] [RI] watcher → processEvents, events=29 processing=true index=19 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=19 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "showConstruction", …} (api.js, line 379)
+{type: "command", action: "call", name: "showConstruction", params: Object, msg_id: "a377b145-ba0c-4dc1-8441-8290a65b5fa5", …}Object
+[Log] [RI] watcher → processEvents, events=30 processing=true index=19 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=19 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "我们先来完成第①步：过点 P 作 OB 的垂线，垂足记作点 C。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "我们先来完成第①步：过点 P 作 OB 的垂线，垂足记作点 C。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 7812, msg_id: "f688d4ee-53cb-4337-aca8-9eae15ea2bbd", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "markObjectRelation", …} (api.js, line 379)
+{type: "command", action: "call", name: "markObjectRelation", params: {relation: "perpendicular", objectType: "segment", targetId: ["segment_PC", "segment_OB"]}, msg_id: "8f2c56a3-6652-4ddc-8e6e-797ba16988f3", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "垂线 PC 从点 P 出发，垂直落在 OB 上，垂足就是点 C。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "垂线 PC 从点 P 出发，垂直落在 OB 上，垂足就是点 C。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 5436, msg_id: "b23b586e-b82b-40c6-a66f-910afa08bb64", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_6", content: "点 P 到直线 OB 的距离 $= PC \\approx 12\\text{mm}$"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_6", content: "点 P 到直线 OB 的距离 $= PC \\approx 12\\text{mm}$"}, msg_id: "d6f43644-6a33-437e-a60a-352e6cf716db", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "focusShapeParts", …} (api.js, line 379)
+{type: "command", action: "call", name: "focusShapeParts", params: {kind: "segments", label: "PC ≈ 12mm", targetId: "segment_PC"}, msg_id: "c170892f-9602-4b0c-b185-c8d20bbd849c", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "点 P 到直线 OB 的距离，就是这条垂线段 PC 的长度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "点 P 到直线 OB 的距离，就是这条垂线段 PC 的长度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 5796, msg_id: "9bf0ade6-5ac7-4184-9a30-035dbaa0dd74", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "showConstruction", …} (api.js, line 379)
+{type: "command", action: "call", name: "showConstruction", params: {type: "parallel_line", target: "segment_PD", point_ids: ["P", "D"]}, msg_id: "7c6a7b22-1800-4c2f-b1ec-c9af028c7144", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "接下来是第②步：先过点 P 作 OA 的平行线，与 OB 交于点 D。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "接下来是第②步：先过点 P 作 OA 的平行线，与 OB 交于点 D。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 5220, msg_id: "47bbbe03-78fb-4b8e-926a-31b1fee2ab19", …}Object
+[Log] [RI] watcher → processEvents, events=38 processing=true index=19 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=19 (ResponseItem.vue, line 253)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[20] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "我们这道题要用的是平行线的同位角相等，以及垂线产生的直角，这两个性质就够了。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[20]: hasBytes=true bytesLen=168944 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=168944 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "showConstruction", …} (api.js, line 379)
+{type: "command", action: "call", name: "showConstruction", params: {type: "parallel_line", target: "segment_PE", point_ids: ["P", "E"]}, msg_id: "da78f86b-1606-4e32-a548-d66f98d50b79", …}Object
+[Log] [RI] watcher → processEvents, events=39 processing=true index=20 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=20 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "再过点 P 作 OB 的平行线，与 OA 交于点 E。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "再过点 P 作 OB 的平行线，与 OA 交于点 E。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 5292, msg_id: "2839d3ae-6646-42f6-9d4d-deae64e19f6a", …}Object
+[Log] [RI] watcher → processEvents, events=40 processing=true index=20 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=20 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "focusShapeParts", …} (api.js, line 379)
+{type: "command", action: "call", name: "focusShapeParts", params: {kind: "segments", targetId: ["segment_PD", "segment_PE"]}, msg_id: "7620f68e-eb54-4c19-8230-471c567fa40c", …}Object
+[Log] [RI] watcher → processEvents, events=41 processing=true index=20 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=20 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "这样，PD 平行于 OA，PE 平行于 OB，两条辅助线都画好了。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "这样，PD 平行于 OA，PE 平行于 OB，两条辅助线都画好了。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 5724, msg_id: "473e9509-1378-4e21-b1cb-b1738c1c1fab", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_8", content: "利用平行线性质得到角 CDP = 角 O"}, …} (api.js, line 379)
+{type: "command", action: "summary", params: {section_id: "seg_8", content: "利用平行线性质得到角 CDP = 角 O"}, msg_id: "d667e8c3-5fb1-410e-a6ab-f01220156307", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=43 processing=true index=20 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=20 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "focusShapeParts", …} (api.js, line 379)
+{type: "command", action: "call", name: "focusShapeParts", params: {kind: "segments", targetId: ["segment_PD", "segment_OA"]}, msg_id: "f1319d66-6149-4f66-a9c4-8ba7a2defe7f", …}Object
+[Log] [RI] watcher → processEvents, events=44 processing=true index=20 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=20 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "现在我们来算角 DPC。我们先看 PD 和 OA 这一对平行线。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "现在我们来算角 DPC。我们先看 PD 和 OA 这一对平行线。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 5436, msg_id: "06b1b965-fa17-4114-a506-d55a7025ce90", …}Object
+[Log] [RI] watcher → processEvents, events=45 processing=true index=20 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=20 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "focusShapeParts", …} (api.js, line 379)
+{type: "command", action: "call", name: "focusShapeParts", params: {kind: "segments", targetId: "segment_OB"}, msg_id: "ea58bfd0-4efc-4246-920e-dd86761309d3", …}Object
+[Log] [RI] watcher → processEvents, events=46 processing=true index=20 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=20 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "PD 平行于 OA，而 OB 是它们的截线。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "PD 平行于 OA，而 OB 是它们的截线。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 4608, msg_id: "d6af71ff-fc5f-4242-879f-7ab108ed2ee5", …}Object
+[Log] [RI] watcher → processEvents, events=47 processing=true index=20 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=20 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_8", content: "$PD \\parallel OA$，同位角相等 $\\Rightarrow \\angle CDP = \\angle O = n°$"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_8", content: "$PD \\parallel OA$，同位角相等 $\\Rightarrow \\angle CDP = \\angle O = n°$"}, msg_id: "93809843-b90b-4c20-9451-4ba5838e0e4e", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "markObjectRelation", …} (api.js, line 379)
+{type: "command", action: "call", name: "markObjectRelation", params: Object, msg_id: "eebf812a-022a-444d-9ec5-78c0c6d4e9c1", …}Object
+[Log] [RI] watcher → processEvents, events=49 processing=true index=20 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=20 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "根据平行线的性质，同位角相等，所以角 CDP 等于角 O，也就是 n 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "根据平行线的性质，同位角相等，所以角 CDP 等于角 O，也就是 n 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 7308, msg_id: "35d5ef43-6dd2-420f-945d-f25105f0a0cd", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_9", content: "利用垂直条件得到角 PCD = 90°"}, …} (api.js, line 379)
+{type: "command", action: "summary", params: {section_id: "seg_9", content: "利用垂直条件得到角 PCD = 90°"}, msg_id: "9c4861c7-ee56-4416-89c1-f2d5194a6bd1", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=51 processing=true index=20 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=20 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "focusShapeParts", …} (api.js, line 379)
+{type: "command", action: "call", name: "focusShapeParts", params: {kind: "segments", targetId: "segment_PC"}, msg_id: "775bed9c-f3fc-4e33-996b-1817489e0664", …}Object
+[Log] [RI] watcher → processEvents, events=52 processing=true index=20 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=20 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "再来看 PC 这条垂线。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "再来看 PC 这条垂线。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 1620, msg_id: "dda1e93a-7151-4d57-986e-d040a457b162", …}Object
+[Log] [RI] watcher → processEvents, events=53 processing=true index=20 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=20 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_9", content: "$PC \\perp OB \\Rightarrow \\angle PCD = 90°$"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_9", content: "$PC \\perp OB \\Rightarrow \\angle PCD = 90°$"}, msg_id: "a6a8bd9c-341f-4cf6-a36a-4e8ffde2dee6", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=54 processing=true index=20 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=20 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "markObjectRelation", …} (api.js, line 379)
+{type: "command", action: "call", name: "markObjectRelation", params: Object, msg_id: "e7e05618-c6c7-4135-8391-264f19c9daca", …}Object
+[Log] [RI] watcher → processEvents, events=55 processing=true index=20 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=20 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "因为 PC 垂直于 OB，所以角 PCD 是一个直角，等于 90 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "因为 PC 垂直于 OB，所以角 PCD 是一个直角，等于 90 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 5580, msg_id: "80aace54-fa79-40a8-8c65-071466d66915", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_10", content: "在三角形 DPC 中利用角度和求角 DPC"}, …} (api.js, line 379)
+{type: "command", action: "summary", params: {section_id: "seg_10", content: "在三角形 DPC 中利用角度和求角 DPC"}, msg_id: "f70a9407-27cd-439d-bdd6-2c8fd82c4705", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=57 processing=true index=20 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=20 (ResponseItem.vue, line 253)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[21] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "好，我们回到题目，继续把剩下的条件读完，然后一步步画图和计算。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[21]: hasBytes=true bytesLen=119792 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=119792 (ResponseItem.vue, line 120)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "focusShapeParts", …} (api.js, line 379)
+{type: "command", action: "call", name: "focusShapeParts", params: {kind: "regions", targetId: "triangle_DPC"}, msg_id: "41f02295-2c39-4a3e-8d30-ff100f4d1f44", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "现在我们把目光放到三角形 DPC 上。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "现在我们把目光放到三角形 DPC 上。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 3420, msg_id: "595822fa-b4c5-485b-8ff3-02f921912c04", …}Object
+[Log] [RI] watcher → processEvents, events=59 processing=true index=21 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=21 (ResponseItem.vue, line 253)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_10", content: "$\\angle DPC + \\angle CDP + \\angle PCD = 180°$"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_10", content: "$\\angle DPC + \\angle CDP + \\angle PCD = 180°$"}, msg_id: "b3b5f960-91d4-4e01-94b3-edc587d505d5", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=60 processing=true index=21 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=21 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "三角形三个内角之和是 180 度，其中角 PCD 已经是 90 度了。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "三角形三个内角之和是 180 度，其中角 PCD 已经是 90 度了。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 4824, msg_id: "fc538925-ca79-4357-9826-bcda37610a4b", …}Object
+[Log] [RI] watcher → processEvents, events=61 processing=true index=21 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=21 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_10", content: "$\\angle DPC + \\angle CDP = 90°$"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_10", content: "$\\angle DPC + \\angle CDP = 90°$"}, msg_id: "cc895aa5-f209-4f9a-a9bd-051df3414e36", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=62 processing=true index=21 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=21 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "所以角 DPC 加上角 CDP，刚好等于 90 度，它们互余。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "所以角 DPC 加上角 CDP，刚好等于 90 度，它们互余。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 5724, msg_id: "cb12a76d-faf8-4248-af0b-46a95185182e", …}Object
+[Log] [RI] watcher → processEvents, events=63 processing=true index=21 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=21 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "bullet", params: {section_id: "seg_10", content: "$\\angle DPC = 90° - \\angle CDP = 90° - n° = (90 - n)°$"}, …} (api.js, line 379)
+{type: "command", action: "bullet", params: {section_id: "seg_10", content: "$\\angle DPC = 90° - \\angle CDP = 90° - n° = (90 - n)°$"}, msg_id: "d9b75c86-7ac2-4697-8310-b00ec8740f08", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "focusShapeParts", …} (api.js, line 379)
+{type: "command", action: "call", name: "focusShapeParts", params: {kind: "angles", label: "∠DPC = (90−n)°", targetId: "angle_DPC"}, msg_id: "f0ee300a-09be-491e-9e61-e08d77b0afe8", …}Object
+[Log] [RI] watcher → processEvents, events=65 processing=true index=21 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=21 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "把角 CDP 等于 n 度代入，就得到角 DPC 等于 90 减 n 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", …} (api.js, line 379)
+{type: "audio", content: "把角 CDP 等于 n 度代入，就得到角 DPC 等于 90 减 n 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV", durationMs: 7416, msg_id: "846c452c-1f37-4599-a81d-079cf56ff28f", …}Object
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "summary", params: {section_id: "seg_11", content: "总结全题"}, …} (api.js, line 379)
+{type: "command", action: "summary", params: {section_id: "seg_11", content: "总结全题"}, msg_id: "a5b7cd5d-4849-4325-8ba3-2d19f49cd23d", session_id: "geometry_session_1781150761122_5icp0y", …}Object
+[Log] [RI] watcher → processEvents, events=67 processing=true index=21 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=21 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "updateBoard", …} (api.js, line 379)
+{type: "command", action: "call", name: "updateBoard", params: {section_id: "summary", title: "本题结论", content: "① 垂线段 PC 即为所作↵② 平行线 PD、PE 即为所作↵③ 点 P 到直线 OB 的距离 = PC ≈ 12mm↵(2) ∠DPC = (90 − n)°"}, msg_id: "c038616a-a791-4dee-9642-417042b27cff", …}Object
+[Log] [RI] watcher → processEvents, events=68 processing=true index=21 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=21 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "好，我们来把这道题的结论整理一下。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "好，我们来把这道题的结论整理一下。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 2304, msg_id: "6b763934-52c2-4a2c-ae27-081a0ab67bfa", …}Object
+[Log] [RI] watcher → processEvents, events=69 processing=true index=21 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=21 (ResponseItem.vue, line 253)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[22] type=command action=summary name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showSummary" – Proxy {section_id: "seg_5", content: "继续读题：第③步要求和问题"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_5", content: "继续读题：第③步要求和问题"}Proxy
+[Log] [RI] event[23] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "第③步要求：量出点 P 到直线 OB 的距离，精确到 1 毫米。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[23]: hasBytes=true bytesLen=106736 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=106736 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "第①②步是作图：PC 是垂线，PD 和 PE 是平行线，按要求画好就行。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "第①②步是作图：PC 是垂线，PD 和 PE 是平行线，按要求画好就行。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 7740, msg_id: "31f6bef4-b3d5-4d6c-8ea8-bd13b947851e", …}Object
+[Log] [RI] watcher → processEvents, events=70 processing=true index=23 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=23 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "第③步量出 PC 的长度，约等于 12 毫米。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "第③步量出 PC 的长度，约等于 12 毫米。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 3312, msg_id: "47343ea3-6b43-47c0-baf3-579f1f5bb394", …}Object
+[Log] [RI] watcher → processEvents, events=71 processing=true index=23 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=23 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "command" – {type: "command", action: "call", name: "focusShapeParts", …} (api.js, line 379)
+{type: "command", action: "call", name: "focusShapeParts", params: {kind: "angles", label: "(90−n)°", targetId: "angle_DPC"}, msg_id: "0e0ac659-fa2b-4fdf-b11d-71c54261bd60", …}Object
+[Log] [RI] watcher → processEvents, events=72 processing=true index=23 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=23 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "第二问的关键是两步推理：先用平行线同位角得到角 CDP 等于 n 度，再用垂直直角得到角 DPC 等于 90 减 n 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "第二问的关键是两步推理：先用平行线同位角得到角 CDP 等于 n 度，再用垂直直角得到角 DPC 等于 90 减 n 度。", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 9684, msg_id: "64c26825-3c23-493a-86a2-9365c23f0ed3", …}Object
+[Log] [RI] watcher → processEvents, events=73 processing=true index=23 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=23 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "audio" – {type: "audio", content: "这道题就全部搞定啦，思路清晰之后其实步骤并不多，你学会了吗？", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", …} (api.js, line 379)
+{type: "audio", content: "这道题就全部搞定啦，思路清晰之后其实步骤并不多，你学会了吗？", bytes: "SUQzBAAAAAAIalRYWFgAAAg9AAADQUlHQwB7IkxhYmVsIjoiMS…qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq", durationMs: 5508, msg_id: "6891066b-ca1c-4fc8-91f7-9c9d4ccf752a", …}Object
+[Log] [RI] watcher → processEvents, events=74 processing=true index=23 (ResponseItem.vue, line 404)
+[Log] [RI] processEvents: skip (already processing), index=23 (ResponseItem.vue, line 253)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "done" – {type: "done", session_id: "geometry_session_1781150761122_5icp0y", sid: "sid_1781150835955_32tba587"} (api.js, line 379)
+[Log] [sendGeometryVoiceFollowup] 收到事件: – "_raw_output" – {type: "_raw_output", raw_output: "```xml↵<segment segment_id=\"seg_4\">↵  <summary>回应用…定啦，思路清晰之后其实步骤并不多，你学会了吗？</sentence>↵</segment>↵```", session_id: "geometry_session_1781150761122_5icp0y", …} (api.js, line 379)
+{type: "_raw_output", raw_output: "```xml↵<segment segment_id=\"seg_4\">↵  <summary>回应用…定啦，思路清晰之后其实步骤并不多，你学会了吗？</sentence>↵</segment>↵```", session_id: "geometry_session_1781150761122_5icp0y", sid: "sid_1781150835955_32tba587"}Object
+[Log] [sendGeometryVoiceFollowup] 流结束 (api.js, line 356)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[24] type=command action=bullet name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "addBullet" – Proxy {section_id: "seg_5", content: "已知：$\\angle O = n°$，求 $\\angle DPC = ?$"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_5", content: "已知：$\\angle O = n°$，求 $\\angle DPC = ?$"}Proxy
+[Log] [RI] event[25] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "题目还问：如果角 O 等于 n 度，那么角 DPC 等于多少度？用含 n 的代数式表示。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[25]: hasBytes=true bytesLen=154352 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=154352 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[26] type=command action=summary name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showSummary" – Proxy {section_id: "seg_6", content: "作图第①步：过 P 作 OB 的垂线，垂足为 C"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_6", content: "作图第①步：过 P 作 OB 的垂线，垂足为 C"}Proxy
+[Log] [RI] event[27] type=command action=summary name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showSummary" – Proxy {section_id: "seg_7", content: "作图第②步：过 P 作 OA 的平行线交 OB 于 D，作 OB 的平行线交 OA 于 E"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_7", content: "作图第②步：过 P 作 OA 的平行线交 OB 于 D，作 OB 的平行线交 OA 于 E"}Proxy
+[Log] [RI] event[28] type=cv_info action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "init" – Proxy {point_list: Array, x_range: [-5.75, 0.75], y_range: [-0.6199082436240156, 4.75262986778412], …} (ResponseItem.vue, line 213)
+Proxy {point_list: Array, x_range: [-5.75, 0.75], y_range: [-0.6199082436240156, 4.75262986778412], line_list: Array, angle_list: Array}Proxy
+[Log] [RI] event[29] type=command action=call name=showConstruction (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showConstruction" – Proxy {type: "perpendicular", target: "segment_PC", point_ids: ["P", "C"], …} (ResponseItem.vue, line 213)
+Proxy {type: "perpendicular", target: "segment_PC", point_ids: ["P", "C"], label: "PC ⊥ OB"}Proxy
+[Log] [RI] event[30] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "我们先来完成第①步：过点 P 作 OB 的垂线，垂足记作点 C。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[30]: hasBytes=true bytesLen=168944 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=168944 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[31] type=command action=call name=markObjectRelation (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "markObjectRelation" – Proxy {relation: "perpendicular", objectType: "segment", targetId: ["segment_PC", "segment_OB"]} (ResponseItem.vue, line 213)
+Proxy {relation: "perpendicular", objectType: "segment", targetId: ["segment_PC", "segment_OB"]}Proxy
+[Log] [RI] event[32] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "垂线 PC 从点 P 出发，垂直落在 OB 上，垂足就是点 C。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[32]: hasBytes=true bytesLen=118256 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=118256 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[33] type=command action=bullet name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "addBullet" – Proxy {section_id: "seg_6", content: "点 P 到直线 OB 的距离 $= PC \\approx 12\\text{mm}$"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_6", content: "点 P 到直线 OB 的距离 $= PC \\approx 12\\text{mm}$"}Proxy
+[Log] [RI] event[34] type=command action=call name=focusShapeParts (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "focusShapeParts" – Proxy {kind: "segments", label: "PC ≈ 12mm", targetId: "segment_PC"} (ResponseItem.vue, line 213)
+Proxy {kind: "segments", label: "PC ≈ 12mm", targetId: "segment_PC"}Proxy
+[Log] [RI] event[35] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "点 P 到直线 OB 的距离，就是这条垂线段 PC 的长度。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[35]: hasBytes=true bytesLen=125936 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=125936 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[36] type=command action=call name=showConstruction (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showConstruction" – Proxy {type: "parallel_line", target: "segment_PD", point_ids: ["P", "D"]} (ResponseItem.vue, line 213)
+Proxy {type: "parallel_line", target: "segment_PD", point_ids: ["P", "D"]}Proxy
+[Log] [RI] event[37] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "接下来是第②步：先过点 P 作 OA 的平行线，与 OB 交于点 D。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[37]: hasBytes=true bytesLen=113648 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=113648 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[38] type=command action=call name=showConstruction (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showConstruction" – Proxy {type: "parallel_line", target: "segment_PE", point_ids: ["P", "E"]} (ResponseItem.vue, line 213)
+Proxy {type: "parallel_line", target: "segment_PE", point_ids: ["P", "E"]}Proxy
+[Log] [RI] event[39] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "再过点 P 作 OB 的平行线，与 OA 交于点 E。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[39]: hasBytes=true bytesLen=115184 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=115184 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[40] type=command action=call name=focusShapeParts (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "focusShapeParts" – Proxy {kind: "segments", targetId: ["segment_PD", "segment_PE"]} (ResponseItem.vue, line 213)
+Proxy {kind: "segments", targetId: ["segment_PD", "segment_PE"]}Proxy
+[Log] [RI] event[41] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "这样，PD 平行于 OA，PE 平行于 OB，两条辅助线都画好了。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[41]: hasBytes=true bytesLen=124400 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=124400 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[42] type=command action=summary name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showSummary" – Proxy {section_id: "seg_8", content: "利用平行线性质得到角 CDP = 角 O"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_8", content: "利用平行线性质得到角 CDP = 角 O"}Proxy
+[Log] [RI] event[43] type=command action=call name=focusShapeParts (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "focusShapeParts" – Proxy {kind: "segments", targetId: ["segment_PD", "segment_OA"]} (ResponseItem.vue, line 213)
+Proxy {kind: "segments", targetId: ["segment_PD", "segment_OA"]}Proxy
+[Log] [RI] event[44] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "现在我们来算角 DPC。我们先看 PD 和 OA 这一对平行线。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[44]: hasBytes=true bytesLen=118256 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=118256 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[45] type=command action=call name=focusShapeParts (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "focusShapeParts" – Proxy {kind: "segments", targetId: "segment_OB"} (ResponseItem.vue, line 213)
+Proxy {kind: "segments", targetId: "segment_OB"}Proxy
+[Log] [RI] event[46] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "PD 平行于 OA，而 OB 是它们的截线。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[46]: hasBytes=true bytesLen=100592 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=100592 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[47] type=command action=bullet name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "addBullet" – Proxy {section_id: "seg_8", content: "$PD \\parallel OA$，同位角相等 $\\Rightarrow \\angle CDP = \\angle O = n°$"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_8", content: "$PD \\parallel OA$，同位角相等 $\\Rightarrow \\angle CDP = \\angle O = n°$"}Proxy
+[Log] [RI] event[48] type=command action=call name=markObjectRelation (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "markObjectRelation" – Proxy {relation: "equal", objectType: "angle", formula: "∠CDP = ∠O = n°", …} (ResponseItem.vue, line 213)
+Proxy {relation: "equal", objectType: "angle", formula: "∠CDP = ∠O = n°", targetId: ["angle_CDP", "angle_AOB"]}Proxy
+[Log] [RI] event[49] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "根据平行线的性质，同位角相等，所以角 CDP 等于角 O，也就是 n 度。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[49]: hasBytes=true bytesLen=158192 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=158192 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[50] type=command action=summary name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showSummary" – Proxy {section_id: "seg_9", content: "利用垂直条件得到角 PCD = 90°"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_9", content: "利用垂直条件得到角 PCD = 90°"}Proxy
+[Log] [RI] event[51] type=command action=call name=focusShapeParts (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "focusShapeParts" – Proxy {kind: "segments", targetId: "segment_PC"} (ResponseItem.vue, line 213)
+Proxy {kind: "segments", targetId: "segment_PC"}Proxy
+[Log] [RI] event[52] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "再来看 PC 这条垂线。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[52]: hasBytes=true bytesLen=36848 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=36848 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[53] type=command action=bullet name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "addBullet" – Proxy {section_id: "seg_9", content: "$PC \\perp OB \\Rightarrow \\angle PCD = 90°$"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_9", content: "$PC \\perp OB \\Rightarrow \\angle PCD = 90°$"}Proxy
+[Log] [RI] event[54] type=command action=call name=markObjectRelation (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "markObjectRelation" – Proxy {relation: "perpendicular", objectType: "angle", formula: "∠PCD = 90°", …} (ResponseItem.vue, line 213)
+Proxy {relation: "perpendicular", objectType: "angle", formula: "∠PCD = 90°", targetId: ["angle_PCD", "segment_OB"]}Proxy
+[Log] [RI] event[55] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "因为 PC 垂直于 OB，所以角 PCD 是一个直角，等于 90 度。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[55]: hasBytes=true bytesLen=121328 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=121328 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[56] type=command action=summary name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showSummary" – Proxy {section_id: "seg_10", content: "在三角形 DPC 中利用角度和求角 DPC"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_10", content: "在三角形 DPC 中利用角度和求角 DPC"}Proxy
+[Log] [RI] event[57] type=command action=call name=focusShapeParts (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "focusShapeParts" – Proxy {kind: "regions", targetId: "triangle_DPC"} (ResponseItem.vue, line 213)
+Proxy {kind: "regions", targetId: "triangle_DPC"}Proxy
+[Log] [RI] event[58] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "现在我们把目光放到三角形 DPC 上。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[58]: hasBytes=true bytesLen=75248 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=75248 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[59] type=command action=bullet name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "addBullet" – Proxy {section_id: "seg_10", content: "$\\angle DPC + \\angle CDP + \\angle PCD = 180°$"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_10", content: "$\\angle DPC + \\angle CDP + \\angle PCD = 180°$"}Proxy
+[Log] [RI] event[60] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "三角形三个内角之和是 180 度，其中角 PCD 已经是 90 度了。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[60]: hasBytes=true bytesLen=105200 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=105200 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[61] type=command action=bullet name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "addBullet" – Proxy {section_id: "seg_10", content: "$\\angle DPC + \\angle CDP = 90°$"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_10", content: "$\\angle DPC + \\angle CDP = 90°$"}Proxy
+[Log] [RI] event[62] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "所以角 DPC 加上角 CDP，刚好等于 90 度，它们互余。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[62]: hasBytes=true bytesLen=124400 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=124400 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[63] type=command action=bullet name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "addBullet" – Proxy {section_id: "seg_10", content: "$\\angle DPC = 90° - \\angle CDP = 90° - n° = (90 - n)°$"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_10", content: "$\\angle DPC = 90° - \\angle CDP = 90° - n° = (90 - n)°$"}Proxy
+[Log] [RI] event[64] type=command action=call name=focusShapeParts (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "focusShapeParts" – Proxy {kind: "angles", label: "∠DPC = (90−n)°", targetId: "angle_DPC"} (ResponseItem.vue, line 213)
+Proxy {kind: "angles", label: "∠DPC = (90−n)°", targetId: "angle_DPC"}Proxy
+[Log] [RI] event[65] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "把角 CDP 等于 n 度代入，就得到角 DPC 等于 90 减 n 度。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[65]: hasBytes=true bytesLen=160496 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=160496 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[66] type=command action=summary name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showSummary" – Proxy {section_id: "seg_11", content: "总结全题"} (ResponseItem.vue, line 213)
+Proxy {section_id: "seg_11", content: "总结全题"}Proxy
+[Log] [RI] event[67] type=command action=call name=updateBoard (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "updateBoard" – Proxy {section_id: "summary", title: "本题结论", content: "① 垂线段 PC 即为所作↵② 平行线 PD、PE 即为所作↵③ 点 P 到直线 OB 的距离 = PC ≈ 12mm↵(2) ∠DPC = (90 − n)°"} (ResponseItem.vue, line 213)
+Proxy {section_id: "summary", title: "本题结论", content: "① 垂线段 PC 即为所作↵② 平行线 PD、PE 即为所作↵③ 点 P 到直线 OB 的距离 = PC ≈ 12mm↵(2) ∠DPC = (90 − n)°"}Proxy
+[Log] [RI] event[68] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "好，我们来把这道题的结论整理一下。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[68]: hasBytes=true bytesLen=51440 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=51440 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[69] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "第①②步是作图：PC 是垂线，PD 和 PE 是平行线，按要求画好就行。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[69]: hasBytes=true bytesLen=167408 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=167408 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[70] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "第③步量出 PC 的长度，约等于 12 毫米。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[70]: hasBytes=true bytesLen=72944 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=72944 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[71] type=command action=call name=focusShapeParts (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "focusShapeParts" – Proxy {kind: "angles", label: "(90−n)°", targetId: "angle_DPC"} (ResponseItem.vue, line 213)
+Proxy {kind: "angles", label: "(90−n)°", targetId: "angle_DPC"}Proxy
+[Log] [RI] event[72] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "第二问的关键是两步推理：先用平行线同位角得到角 CDP 等于 n 度，再用垂直直角得到角 DPC 等于 90 减 n 度。"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[72]: hasBytes=true bytesLen=208880 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=208880 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Log] [RI] event[73] type=audio action= name= (ResponseItem.vue, line 270)
+[Log] [ResponseItem] sendToIframe -> – "showLecture" – {content: "这道题就全部搞定啦，思路清晰之后其实步骤并不多，你学会了吗？"} (ResponseItem.vue, line 213)
+[Log] [RI] audio[73]: hasBytes=true bytesLen=119792 mode=demo (ResponseItem.vue, line 281)
+[Log] [RI] playAudio: start, b64 length=119792 (ResponseItem.vue, line 120)
+[Log] [RI] playAudio: play() resolved (playing) (ResponseItem.vue, line 141)
+[Log] [RI] playAudio: ended (ResponseItem.vue, line 125)
+[Warning] [RI] processEvents: missing event at index=74 (ResponseItem.vue, line 267)
+[Log] [RI] processEvents: END index=74 total=74 (ResponseItem.vue, line 364)

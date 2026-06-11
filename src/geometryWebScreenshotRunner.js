@@ -23,6 +23,10 @@ export function parseArgs(argv) {
     headless: true,
     idleTimeoutMs: 30000,
     endSignalTimeoutMs: 30000,
+    stableAfterEndMs: 2500,
+    interrupt: false,
+    interruptTimes: [],
+    interruptContents: [],
     viewportWidth: 1920,
     viewportHeight: 1400,
   }
@@ -35,11 +39,42 @@ export function parseArgs(argv) {
     else if (arg === '--headless') options.headless = argv[++index] !== 'false'
     else if (arg === '--idle-timeout-ms') options.idleTimeoutMs = Number(argv[++index])
     else if (arg === '--end-signal-timeout-ms') options.endSignalTimeoutMs = Number(argv[++index])
+    else if (arg === '--stable-after-end-ms') options.stableAfterEndMs = Number(argv[++index])
+    else if (arg === '--interrupt') options.interrupt = argv[++index] === 'true'
+    else if (arg === '--interrupt_time') options.interruptTimes = parseListArg(argv[++index]).map(parseDurationMs)
+    else if (arg === '--interrupt_content') options.interruptContents = parseListArg(argv[++index])
     else if (arg === '--viewport-width') options.viewportWidth = Number(argv[++index])
     else if (arg === '--viewport-height') options.viewportHeight = Number(argv[++index])
   }
 
   return options
+}
+
+export function parseListArg(value) {
+  const text = String(value || '').trim()
+  if (!text) return []
+
+  try {
+    const parsed = JSON.parse(text.replace(/'/g, '"'))
+    if (Array.isArray(parsed)) return parsed.map((item) => String(item))
+  } catch {
+    // Fall through to comma splitting for shell-friendly input.
+  }
+
+  return text
+    .replace(/^\[/, '')
+    .replace(/\]$/, '')
+    .split(',')
+    .map((item) => item.trim().replace(/^['"]|['"]$/g, ''))
+    .filter(Boolean)
+}
+
+export function parseDurationMs(value) {
+  const text = String(value || '').trim()
+  const match = text.match(/^(\d+(?:\.\d+)?)(ms|s)?$/i)
+  if (!match) throw new Error(`Invalid duration: ${value}`)
+  const amount = Number(match[1])
+  return match[2]?.toLowerCase() === 'ms' ? amount : amount * 1000
 }
 
 export function buildExcludedTidsSummary() {
@@ -58,7 +93,14 @@ export function buildSuccessSummary({
   endedAt,
   outputDir,
   lastEndState,
+  interrupts = [],
 }) {
+  const successEndReasons = new Set([
+    'completed_by_end_signal',
+    'completed_by_console_idle_after_stream',
+    'completed_by_console_idle',
+  ])
+
   return {
     selectedTid,
     sourceMode,
@@ -71,8 +113,9 @@ export function buildSuccessSummary({
     startedAt,
     endedAt,
     outputDir,
-    success: endReason === 'completed_by_end_signal',
+    success: successEndReasons.has(endReason),
     lastEndState,
+    interrupts,
   }
 }
 
@@ -99,29 +142,50 @@ export function createPendingConsoleTaskTracker() {
 }
 
 export function shouldCaptureScreenshotEvent(eventName) {
-  return eventName === 'showLecture'
+  return Boolean(eventName)
 }
 
-export function isStreamCompleteLog(line) {
+export function isStreamFinishedLog(line) {
+  return /\[(sendGeometryChat|sendGeometryVoiceFollowup)\] 流结束/.test(String(line || ''))
+}
+
+export function isAudioStartLog(line) {
+  return String(line || '').includes('[RI] playAudio: start')
+}
+
+export function isAudioEndedLog(line) {
+  return String(line || '').includes('[RI] playAudio: ended')
+}
+
+export function isTerminalProcessEndLog(line) {
   const endLog = parseProcessEndLog(line)
   return Boolean(endLog && endLog.index === endLog.total && endLog.total > 10)
 }
 
 export function decideRunEnd({
-  streamCompleted,
+  streamFinished,
+  terminalProcessEnded,
+  pendingInterruptCount,
+  audioPlaying,
   hasSeenConsoleEvent,
   hasCapturedScreenshot,
   now,
   lastConsoleActivityAt,
   idleTimeoutMs,
   deadlineAt,
+  stableAfterEndMs = 2500,
 }) {
-  if (streamCompleted) {
-    return hasCapturedScreenshot ? 'completed_by_end_signal' : 'no_matching_iframe_events'
+  if (streamFinished && terminalProcessEnded && pendingInterruptCount === 0 && !audioPlaying) {
+    if (!hasCapturedScreenshot) return 'no_matching_iframe_events'
+    if (now - lastConsoleActivityAt >= stableAfterEndMs) return 'completed_by_end_signal'
+    return null
+  }
+
+  if (hasCapturedScreenshot && pendingInterruptCount === 0 && now - lastConsoleActivityAt >= idleTimeoutMs && !audioPlaying) {
+    return streamFinished ? 'completed_by_console_idle_after_stream' : 'completed_by_console_idle'
   }
 
   if (now >= deadlineAt) {
-    if (hasCapturedScreenshot && now - lastConsoleActivityAt < idleTimeoutMs) return null
     return hasSeenConsoleEvent ? 'timeout_waiting_for_end_signal' : 'no_iframe_events'
   }
 
@@ -197,9 +261,39 @@ async function selectGeometryTid(page, requestedTid) {
   }
 }
 
+function buildInterrupts(options) {
+  if (!options.interrupt) return []
+  const times = options.interruptTimes.length ? options.interruptTimes : [20000]
+  const contents = options.interruptContents.length ? options.interruptContents : ['你讲一下第一步']
+  return times.map((timeMs, index) => ({
+    timeMs,
+    content: contents[index] || contents[contents.length - 1],
+    fired: false,
+  }))
+}
+
+async function clickGeometryVoiceButton(page, labelPattern) {
+  const button = page.locator('.geometry-voice-btn', { hasText: labelPattern }).last()
+  await button.waitFor({ state: 'visible', timeout: 10000 })
+  await button.click()
+}
+
+async function fireMockInterrupt(page) {
+  await clickGeometryVoiceButton(page, /语音提问/)
+  await page.waitForTimeout(800)
+  await clickGeometryVoiceButton(page, /停止录音/)
+}
+
 export async function runGeometryScreenshotCli(options) {
   const startedAt = new Date().toISOString()
-  const browser = await chromium.launch({ headless: options.headless })
+  const interrupts = buildInterrupts(options)
+  const browser = await chromium.launch({
+    headless: options.headless,
+    args: [
+      '--use-fake-ui-for-media-stream',
+      '--use-fake-device-for-media-stream',
+    ],
+  })
   const page = await browser.newPage({
     viewport: {
       width: options.viewportWidth,
@@ -212,17 +306,31 @@ export async function runGeometryScreenshotCli(options) {
   let allowedTidCount = 0
   let paths = null
   let receivedEndSignal = false
-  let streamCompleted = false
+  let streamFinished = false
+  let terminalProcessEnded = false
   let endReason = 'failed_before_capture'
   let fallbackCount = 0
   let totalScreenshots = 0
   let lastConsoleActivityAt = Date.now()
   let hasSeenConsoleEvent = false
   let lastEndState = null
+  let firstPlaybackStartedAt = null
+  let audioPlaying = false
+  let pendingInterruptTask = null
   let sequence = 0
   const pendingConsoleTasks = createPendingConsoleTaskTracker()
 
   try {
+    await page.route('**/api/geometry/asr', async (route) => {
+      const next = interrupts.find((item) => item.fired && !item.asrUsed)
+      if (next) next.asrUsed = true
+      await route.fulfill({
+        status: 200,
+        contentType: 'application/json',
+        body: JSON.stringify({ text: next?.content || options.interruptContents[0] || '你讲一下第一步' }),
+      })
+    })
+
     await page.goto(options.url, { waitUntil: 'networkidle' })
     await page.getByText('几何题', { exact: true }).click()
 
@@ -235,19 +343,28 @@ export async function runGeometryScreenshotCli(options) {
     page.on('console', (message) => {
       pendingConsoleTasks.track((async () => {
         lastConsoleActivityAt = Date.now()
+        const text = message.text()
 
-        const endLog = parseProcessEndLog(message.text())
-        if (endLog) {
-          lastEndState = endLog
+        if (isAudioStartLog(text)) {
+          audioPlaying = true
+          firstPlaybackStartedAt = firstPlaybackStartedAt || Date.now()
+        } else if (isAudioEndedLog(text)) {
+          audioPlaying = false
         }
 
-        if (isStreamCompleteLog(message.text())) {
-          streamCompleted = true
+        const endLog = parseProcessEndLog(text)
+        if (endLog) {
+          lastEndState = endLog
+          terminalProcessEnded = isTerminalProcessEndLog(text)
+        }
+
+        if (isStreamFinishedLog(text)) {
+          streamFinished = true
           receivedEndSignal = true
           return
         }
 
-        const parsed = parseSendToIframeLog(message.text())
+        const parsed = parseSendToIframeLog(text)
         if (!parsed) return
 
         hasSeenConsoleEvent = true
@@ -262,10 +379,11 @@ export async function runGeometryScreenshotCli(options) {
         const frame = page.locator('iframe.response-iframe').first().contentFrame()
         if (!frame) return
 
-        sequence += 1
+        const captureSequence = sequence + 1
+        sequence = captureSequence
         const target = await resolveCaptureLocator(frame)
         const entry = buildIndexEntry({
-          sequence,
+          sequence: captureSequence,
           eventName: payload.eventName,
           params: payload.params,
           rawParams: payload.rawParams,
@@ -287,14 +405,35 @@ export async function runGeometryScreenshotCli(options) {
     while (true) {
       await page.waitForTimeout(200)
       const now = Date.now()
+
+      if (firstPlaybackStartedAt && !pendingInterruptTask) {
+        const nextInterrupt = interrupts.find((item) => !item.fired && now - firstPlaybackStartedAt >= item.timeMs)
+        if (nextInterrupt) {
+          nextInterrupt.fired = true
+          streamFinished = false
+          terminalProcessEnded = false
+          pendingInterruptTask = fireMockInterrupt(page)
+            .catch((error) => {
+              nextInterrupt.error = String(error?.message || error)
+            })
+            .finally(() => {
+              pendingInterruptTask = null
+            })
+        }
+      }
+
       const decidedEnd = decideRunEnd({
-        streamCompleted,
+        streamFinished,
+        terminalProcessEnded,
+        pendingInterruptCount: interrupts.filter((item) => !item.fired).length + (pendingInterruptTask ? 1 : 0),
+        audioPlaying,
         hasSeenConsoleEvent,
         hasCapturedScreenshot: totalScreenshots > 0,
         now,
         lastConsoleActivityAt,
         idleTimeoutMs: options.idleTimeoutMs,
         deadlineAt,
+        stableAfterEndMs: options.stableAfterEndMs,
       })
       if (decidedEnd) {
         endReason = decidedEnd
@@ -316,6 +455,13 @@ export async function runGeometryScreenshotCli(options) {
       endedAt: new Date().toISOString(),
       outputDir: paths.sessionDir,
       lastEndState,
+      interrupts: interrupts.map((item) => ({
+        timeMs: item.timeMs,
+        content: item.content,
+        fired: item.fired,
+        asrUsed: Boolean(item.asrUsed),
+        error: item.error || '',
+      })),
     })
     writeSummary(paths.summaryPath, summary)
     return summary

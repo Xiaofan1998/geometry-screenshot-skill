@@ -6,11 +6,14 @@ import { fileURLToPath } from 'node:url'
 import { parseSendToIframeLog, parseProcessEndLog } from './geometryScreenshotCore.js'
 import {
   parseArgs,
+  parseListArg,
+  parseDurationMs,
   buildExcludedTidsSummary,
   buildSuccessSummary,
   createPendingConsoleTaskTracker,
   shouldCaptureScreenshotEvent,
-  isStreamCompleteLog,
+  isStreamFinishedLog,
+  isTerminalProcessEndLog,
   getCaptureSelectorCandidates,
   decideRunEnd,
 } from './geometryWebScreenshotRunner.js'
@@ -23,6 +26,10 @@ test('parseArgs reads fixed tid and output overrides', () => {
     '--output-dir', '/tmp/output',
     '--headless', 'false',
     '--idle-timeout-ms', '5000',
+    '--stable-after-end-ms', '1500',
+    '--interrupt', 'true',
+    '--interrupt_time', '[20s, 60s]',
+    '--interrupt_content', "['给我讲一下勾股定理','你讲一下第一步']",
   ])
 
   assert.deepEqual(options, {
@@ -32,9 +39,21 @@ test('parseArgs reads fixed tid and output overrides', () => {
     headless: false,
     idleTimeoutMs: 5000,
     endSignalTimeoutMs: 30000,
+    stableAfterEndMs: 1500,
+    interrupt: true,
+    interruptTimes: [20000, 60000],
+    interruptContents: ['给我讲一下勾股定理', '你讲一下第一步'],
     viewportWidth: 1920,
     viewportHeight: 1400,
   })
+})
+
+test('parseListArg and parseDurationMs accept shell-friendly arrays', () => {
+  assert.deepEqual(parseListArg("['20s', '60s']"), ['20s', '60s'])
+  assert.deepEqual(parseListArg('20s,60s'), ['20s', '60s'])
+  assert.equal(parseDurationMs('20s'), 20000)
+  assert.equal(parseDurationMs('1500ms'), 1500)
+  assert.equal(parseDurationMs('2'), 2000)
 })
 
 test('buildExcludedTidsSummary returns the approved blacklist without json suffixes', () => {
@@ -61,6 +80,7 @@ test('buildSuccessSummary includes output metadata for completed runs', () => {
     endedAt: '2026-06-10T09:00:10.000Z',
     outputDir: '/tmp/session',
     lastEndState: { index: 12, total: 12 },
+    interrupts: [{ timeMs: 20000, content: '你讲一下第一步', fired: true, asrUsed: true, error: '' }],
   })
 
   assert.deepEqual(summary, {
@@ -84,6 +104,7 @@ test('buildSuccessSummary includes output metadata for completed runs', () => {
     outputDir: '/tmp/session',
     success: true,
     lastEndState: { index: 12, total: 12 },
+    interrupts: [{ timeMs: 20000, content: '你讲一下第一步', fired: true, asrUsed: true, error: '' }],
   })
 })
 
@@ -107,18 +128,20 @@ test('createPendingConsoleTaskTracker waits for in-flight screenshot tasks', asy
   assert.equal(tracker.size(), 0)
 })
 
-test('shouldCaptureScreenshotEvent only accepts showLecture', () => {
+test('shouldCaptureScreenshotEvent accepts every iframe command', () => {
   assert.equal(shouldCaptureScreenshotEvent('showLecture'), true)
-  assert.equal(shouldCaptureScreenshotEvent('renderProblem'), false)
-  assert.equal(shouldCaptureScreenshotEvent('showSummary'), false)
+  assert.equal(shouldCaptureScreenshotEvent('renderProblem'), true)
+  assert.equal(shouldCaptureScreenshotEvent('showSummary'), true)
+  assert.equal(shouldCaptureScreenshotEvent(''), false)
 })
 
-test('isStreamCompleteLog only accepts geometry stream completion logs', () => {
-  assert.equal(isStreamCompleteLog('[sendGeometryChat] 流结束'), false)
-  assert.equal(isStreamCompleteLog('[sendGeometryVoiceFollowup] 流结束'), false)
-  assert.equal(isStreamCompleteLog('[RI] processEvents: END index=10 total=10'), false)
-  assert.equal(isStreamCompleteLog('[RI] processEvents: END index=11 total=12'), false)
-  assert.equal(isStreamCompleteLog('[RI] processEvents: END index=12 total=12'), true)
+test('stream and process-end detectors track separate phases', () => {
+  assert.equal(isStreamFinishedLog('[sendGeometryChat] 流结束'), true)
+  assert.equal(isStreamFinishedLog('[sendGeometryVoiceFollowup] 流结束'), true)
+  assert.equal(isStreamFinishedLog('[RI] processEvents: END index=12 total=12'), false)
+  assert.equal(isTerminalProcessEndLog('[RI] processEvents: END index=10 total=10'), false)
+  assert.equal(isTerminalProcessEndLog('[RI] processEvents: END index=11 total=12'), false)
+  assert.equal(isTerminalProcessEndLog('[RI] processEvents: END index=12 total=12'), true)
 })
 
 test('getCaptureSelectorCandidates prefers the full lecture container', () => {
@@ -130,7 +153,10 @@ test('decideRunEnd waits for RI process END and avoids mid-stream timeout while 
   const idleTimeoutMs = 10000
 
   assert.equal(decideRunEnd({
-    streamCompleted: false,
+    streamFinished: false,
+    terminalProcessEnded: false,
+    pendingInterruptCount: 0,
+    audioPlaying: false,
     hasSeenConsoleEvent: true,
     hasCapturedScreenshot: true,
     now: 12000,
@@ -140,17 +166,23 @@ test('decideRunEnd waits for RI process END and avoids mid-stream timeout while 
   }), null)
 
   assert.equal(decideRunEnd({
-    streamCompleted: true,
+    streamFinished: true,
+    terminalProcessEnded: true,
+    pendingInterruptCount: 0,
+    audioPlaying: false,
     hasSeenConsoleEvent: true,
     hasCapturedScreenshot: true,
     now: 15000,
-    lastConsoleActivityAt: 9000,
+    lastConsoleActivityAt: 12000,
     idleTimeoutMs,
     deadlineAt,
   }), 'completed_by_end_signal')
 
   assert.equal(decideRunEnd({
-    streamCompleted: false,
+    streamFinished: true,
+    terminalProcessEnded: true,
+    pendingInterruptCount: 1,
+    audioPlaying: false,
     hasSeenConsoleEvent: true,
     hasCapturedScreenshot: true,
     now: 20050,
@@ -160,17 +192,23 @@ test('decideRunEnd waits for RI process END and avoids mid-stream timeout while 
   }), null)
 
   assert.equal(decideRunEnd({
-    streamCompleted: false,
+    streamFinished: false,
+    terminalProcessEnded: false,
+    pendingInterruptCount: 0,
+    audioPlaying: false,
     hasSeenConsoleEvent: true,
     hasCapturedScreenshot: true,
-    now: 30001,
+    now: 40001,
     lastConsoleActivityAt: 29000,
     idleTimeoutMs,
     deadlineAt,
-  }), null)
+  }), 'completed_by_console_idle')
 
   assert.equal(decideRunEnd({
-    streamCompleted: false,
+    streamFinished: false,
+    terminalProcessEnded: false,
+    pendingInterruptCount: 0,
+    audioPlaying: false,
     hasSeenConsoleEvent: true,
     hasCapturedScreenshot: false,
     now: 30001,
@@ -178,4 +216,30 @@ test('decideRunEnd waits for RI process END and avoids mid-stream timeout while 
     idleTimeoutMs,
     deadlineAt,
   }), 'timeout_waiting_for_end_signal')
+
+  assert.equal(decideRunEnd({
+    streamFinished: true,
+    terminalProcessEnded: false,
+    pendingInterruptCount: 0,
+    audioPlaying: false,
+    hasSeenConsoleEvent: true,
+    hasCapturedScreenshot: true,
+    now: 25000,
+    lastConsoleActivityAt: 9000,
+    idleTimeoutMs,
+    deadlineAt,
+  }), 'completed_by_console_idle_after_stream')
+
+  assert.equal(decideRunEnd({
+    streamFinished: true,
+    terminalProcessEnded: true,
+    pendingInterruptCount: 0,
+    audioPlaying: true,
+    hasSeenConsoleEvent: true,
+    hasCapturedScreenshot: true,
+    now: 45000,
+    lastConsoleActivityAt: 9000,
+    idleTimeoutMs,
+    deadlineAt: 60000,
+  }), null)
 })
